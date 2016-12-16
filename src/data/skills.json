@@ -1,0 +1,10 @@
+{
+  "Expertise": ["MVC architecture", "OOPs", "Algorithms", "Problem Solving"],
+  "Languages": ["JavaScript", "ES6", "HTML", "CSS", "LESS", "PHP", "Java"],
+  "Frontend": ["ReactJS", "AngularJS", "jQuery", "Bootstrap", "Webpack", "GruntJS", "Responsive Design"],
+  "Unit Testing": ["Karma", "Jest", "Mocha"],
+  "Backend": ["REST APIs", "NodeJs", "ExpressJs"],
+  "Mobile": ["Apache Cordova", "Adobe flash builder", "Titanium Appcelerator"],
+  "Enterprise Mobile": ["SAP Fiori", "SAPUI5", "Sybase Unwired Platform", "Mobile Business Objects"],
+  "Others": ["Team Player", "Productive", "Communications", "Confident"]
+}
