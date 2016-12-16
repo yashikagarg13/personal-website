@@ -1,13 +1,13 @@
-import React from 'react'
-import {Router, Route, IndexRedirect, browserHistory} from 'react-router'
+import React from "react";
+import {Router, Route, IndexRedirect, browserHistory} from "react-router";
 
-import Layout from './components/layout'
-const history = browserHistory
+import Layout from "./components/layout";
+const history = browserHistory;
 
 const getRoutes = () => (
-  <Route path='/' component={Layout}>
+  <Route path="/" component={Layout}>
   </Route>
-)
+);
 
 export default class App extends React.Component {
   render () {
@@ -15,8 +15,8 @@ export default class App extends React.Component {
       <Router history={history}>
         {getRoutes()}
       </Router>
-    )
+    );
   }
 }
 
-export {getRoutes, history}
+export {getRoutes, history};

@@ -42,6 +42,7 @@
     "autoprefixer-loader": "^3.2.0",
     "css-loader": "^0.26.0",
     "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-react": "^6.8.0",
     "eslint-plugin-standard": "^2.0.1",
