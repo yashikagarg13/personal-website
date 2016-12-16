@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Dance",
+    "icon": "sentiment_very_satisfied"
+  },
+  {
+    "title": "Celebrations",
+    "icon": "cake"
+  },
+  {
+    "title": "Health",
+    "icon": "fitness-center"
+  },
+  {
+    "title": "Cooking",
+    "icon": "room-service"
+  },
+  {
+    "title": "Music",
+    "icon": "queue_music"
+  }
+]
