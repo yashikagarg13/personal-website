@@ -12,11 +12,11 @@
     "icon": "fitness-center"
   },
   {
-    "title": "Cooking",
-    "icon": "room-service"
+    "title": "Volunteering",
+    "icon": "public"
   },
   {
-    "title": "Music",
+    "title": "Listening Music",
     "icon": "queue_music"
   }
 ]
