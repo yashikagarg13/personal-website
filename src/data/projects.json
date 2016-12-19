@@ -1,0 +1,203 @@
+/*
+1. Github Battle
+2. Weather Forecast
+3. Typography - Solving major challenges
+4. Budget Manager
+*/
+
+/*
+1. PowerToFly Website
+2. Crossover Website
+3. Crossover Techtrial Website
+
+5. Smithfield Enterprise Web Solution *
+6. Smithfield Enterprise Mobile App
+7. Orasure QR Mobile App
+17. Orasure - Sample Training Kit - Mobile Application
+10. OneAppCloud IGH Pro Mobile App *
+12. Honeywell - HR Performance Enterprise Mobile Application
+13. Hollister - US Bedside Enrollment.
+
+- AutoMagic
+14. Aapka Dost Mobile Application
+15. Nuway Address Book Mobile Application
+16. Santa Banta Mobile Application
+4. Travelopedia Mobile App
+8. iConference Mobile App
+9. CloudPhire Web App
+11. Intranet - Employee Suit Web Solution
+*/
+
+
+/*
+ - Personal
+ - PowerToFly
+ - Crossover
+ - TPC Enterprise Apps
+ - TPC Internal Apps
+*/
+
+{
+  "personal": [
+    {
+      "title": "Budget Manager (In Progress)",
+      "url": "",
+      "sourceCode": "https://github.com/yashikagarg13/budget-manager",
+      "description": "Web solution for maintaining expense enteries and generating monthly/quarterly/yearly reports.",
+      "role": "Fullstack Development",
+      "technologies": ["ReactJs", "NodeJS", "Express", "MongoDB", "Webpack", "Eslint"],
+      "media": [],
+      "client": "",
+      "type": "Web Application"
+    },
+    {
+      "title": "Weather Forecast",
+      "url": "",
+      "sourceCode": "https://github.com/yashikagarg13/WeatherForecast",
+      "description": "Application built to understand and implement ReactJS fundamentals like Stateless functional components, react-router and prop types.",
+      "role": "Frontend Development",
+      "technologies": ["ReactJs", "React Router", "Webpack"],
+      "media": ["media/projects/weather-forecast-1.png", "media/projects/weather-forecast-2.png", "media/projects/weather-forecast-3.png"],
+      "client": "",
+      "type": "Web Application"
+    },
+    {
+      "title": "Typography - Solving Major Challenges",
+      "url": "",
+      "sourceCode": "https://github.com/yashikagarg13/typography-basics",
+      "description": "Application describing different challenges of attaining good typography and their solution.",
+      "role": "",
+      "technologies": ["LESS", "Responsive Design", "Typographic Basics"],
+      "media": ["media/projects/typography.png"],
+      "client": "",
+      "type": "Web Application"
+    },
+    {
+      "title": "Github Battle",
+      "url": "",
+      "sourceCode": "https://github.com/yashikagarg13/react-practise",
+      "description": "Application built to understand basic concepts of React JS. In this application, two github users are compared based on number of followers and number of stars.",
+      "role": "",
+      "technologies": ["ReactJS", "React Router", "Babel", "ES6", "Webpack"],
+      "media": ["media/projects/github-battle-1.png", "media/projects/github-battle-2.png"],
+      "client": "",
+      "type": "Web Application"
+    }
+  ],
+  "powertofly": [
+    {
+      "title": "PowerToFly",
+      "url": "https://www.powertofly.com",
+      "sourceCode": "",
+      "description": "Hiring platform that matches talented women in tech with companies that value diversity in their teams.",
+      "role": "Frontend Developer",
+      "technologies": ["ReactJS", "jQuery", "HTML5", "CSS3", "Flask", "Webpack", "Jest"],
+      "media": ["media/projects/powertofly-1.png", "media/projects/powertofly-2.png", "media/projects/powertofly-3.png", "media/projects/powertofly-4.png", "media/projects/powertofly-5.png",  "media/projects/powertofly-6.png", "media/projects/powertofly-7.png", "media/projects/powertofly-8.png"],
+      "client": "PowerToFly",
+      "type": "Web Application"
+    }
+  ],
+  "crossover": [
+    {
+      "title": "Crossover",
+      "url": "https://www.crossover.com",
+      "sourceCode": "",
+      "description": "Crossover connects companies to the best, high-skill talent around the world, and also helps them manage, pay, and increase the productivity of that talent.",
+      "role": "Frontend Developer",
+      "technologies": ["AngularJS", "HTML5", "CSS3", "GruntJS", "Karma"],
+      "media": [],
+      "client": "Crossover For Work",
+      "type": "Web Application"
+    },
+    {
+      "title": "Crossover Techtrial",
+      "url": "https://techtrial.crossover.com",
+      "sourceCode": "",
+      "description": "Techtrial platform is used by evaluation team to assess the code tests submitted by candidates and provide scores.",
+      "role": "Frontend Developer",
+      "technologies": ["AngularJS", "HTML5", "CSS3", "GruntJS", "Karma", "GoogleCharts", "DragNDrop API"],
+      "media": [],
+      "client": "Crossover For Work",
+      "type": "Web Application"
+    }
+  ],
+  "tpc-enterprise-apps": [
+    {
+      "title": "Smithfield eCAR",
+      "url": "https://ecar.smithfield.com",
+      "sourceCode": "",
+      "description": "eCAR is an application that helps client to create a ‚Capital Appropriation Request‛ that include all the details about the CAR. A particular CAR, once submitted to the flow goes through different steps for review, where reviewers can approve/decline/resubmit the CAR.",
+      "role": "Architect, Fullstack development",
+      "technologies": ["PHP", "MS SQL Server", "HTML", "CSS", "Javascript", "SSRS"],
+      "media": ["media/projects/smithfield-web-app-1"],
+      "client": "Smithfield Foods Inc.",
+      "type": "Web Application"
+    },
+    {
+      "title": "Smithfield eCAR",
+      "url": "",
+      "sourceCode": "",
+      "description": "Application allows the managers to view the CARs waiting for their review in queue. Each CAR itself drills down to detailed information, list of attached documents, all reviewers in process and an interface where manager can approve/reject the request or leave a comment.",
+      "role": "Mobile application development",
+      "technologies": ["Sybase Unwired Platform", "HTML", "CSS", "Mobile Business Objects", "SOAP Web-services"],
+      "media": ["media/projects/smithfield-mobile-app-1.png", "media/projects/smithfield-mobile-app-2.png", "media/projects/smithfield-mobile-app-3.png", "media/projects/smithfield-mobile-app-4.png"],
+      "client": "Smithfield Foods Inc.",
+      "type": "Enterprise Mobile Application"
+    },
+    {
+      "title": "QR Mobile",
+      "url": "",
+      "sourceCode": "",
+      "description": "QR Mobile application allows sales professionals to better understand their clients based on aggregating and understanding purchase history and provides prioritized client forecasts",
+      "role": "Mobile application development",
+      "technologies": ["Adobe Flash Builder", "Action Script"],
+      "media": ["media/projects/qr-mobile-1.png", "media/projects/qr-mobile-2.png", "media/projects/qr-mobile-3.png", "media/projects/qr-mobile-4.png"],
+      "client": "Orasure Inc.",
+      "type": "Enterprise Mobile Application"
+    },
+    {
+      "title": "Sample Training Kit",
+      "url": "",
+      "sourceCode": "",
+      "description": "Application is used by OraSure Sales Rep to register doctors for Sample Kit Training and schedules the training depending upon their availability. Application auto detects timezone among EST, CST, MST, PST and loads the training schedules accordingly.",
+      "role": "Fullstack Development",
+      "technologies": ["Cordova", "HTML5", "CSS3", "JavaScript"],
+      "media": ["media/projects/sample-training-kit-1.png", "media/projects/sample-training-kit-2.png", "media/projects/sample-training-kit-3.png"],
+      "client": "Orasure Inc.",
+      "type": "POC - Web Solution"
+    },
+    {
+      "title": "IGH Pro",
+      "url": "",
+      "sourceCode": "",
+      "description": "Application allows user to search jobs and teep track of opportunities, events and interviews scheduled.",
+      "role": "Mobile Application Development",
+      "technologies": ["Adobe Flash Builder", "ActionScript"],
+      "media": ["media/projects/"],
+      "client": "OneAppCloud",
+      "type": "Enterprise mobile application (iPhone, iPad)"
+    },
+    {
+      "title": "HR Performance",
+      "url": "",
+      "sourceCode": "",
+      "description": "Application used by Honeywell managers/executives to view their annual reports, track the progress of their tasks, request, view or submit feedback for employees.",
+      "role": "Mobile Application Development",
+      "technologies": ["Sybase Unwired Platform", "Mobile business objects", "HTML"],
+      "media": ["media/projects/honeywell-1.png", "media/projects/honeywell-2.png", "media/projects/honeywell-3.png", "media/projects/honeywell-4.png"],
+      "client": "HoneyWell",
+      "type": "Enterprise mobile application (iPhone, iPad, Blackberry)"
+    },
+    {
+      "title": "US Bedside Enrollment",
+      "url": "",
+      "sourceCode": "",
+      "description": "Application used by Hollister’s clinical customers for obtaining patient’s information and his signatures upon enrollment into Secure Start Program and sends a confirmation email with required information to Secure Start Associate and nurse/clinician.",
+      "role": "Backend Development - SOAP Web services",
+      "technologies": ["J2EE", "JDBC", "Email API"],
+      "media": ["media/projects/bedside-enrollment-1.png", "media/projects/bedside-enrollment-2.png"],
+      "client": "Hollister Global",
+      "type": "Enterprise mobile application"
+    }
+  ]
+}
