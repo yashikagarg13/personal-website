@@ -18,16 +18,18 @@
 12. Honeywell - HR Performance Enterprise Mobile Application
 13. Hollister - US Bedside Enrollment.
 
-- AutoMagic
+
+*/
+
+
+/*
 14. Aapka Dost Mobile Application
 15. Nuway Address Book Mobile Application
 16. Santa Banta Mobile Application
 4. Travelopedia Mobile App
 8. iConference Mobile App
 9. CloudPhire Web App
-11. Intranet - Employee Suit Web Solution
-*/
-
+11. Intranet - Employee Suit Web Solution*/
 
 /*
  - Personal
@@ -36,6 +38,8 @@
  - TPC Enterprise Apps
  - TPC Internal Apps
 */
+
+
 
 {
   "personal": [
@@ -123,6 +127,17 @@
   ],
   "tpc-enterprise-apps": [
     {
+      "title": "PetEdge",
+      "url": "",
+      "sourceCode": "",
+      "description": "Petedge application is used to see the list of orders placed, their current status and other details.",
+      "role": "Architect, Frontend development",
+      "technologies": ["HTML", "CSS", "Javascript", "LocalStorage"],
+      "media": ["media/projects/petedge-1.png", "media/projects/petedge-2.png", "media/projects/petedge-3.png", "media/projects/petedge-4.png", "media/projects/petedge-5.png"],
+      "client": "Smithfield Foods Inc.",
+      "type": "Enterprise Mobile Application"
+    },
+    {
       "title": "Smithfield eCAR",
       "url": "https://ecar.smithfield.com",
       "sourceCode": "",
@@ -198,6 +213,96 @@
       "media": ["media/projects/bedside-enrollment-1.png", "media/projects/bedside-enrollment-2.png"],
       "client": "Hollister Global",
       "type": "Enterprise mobile application"
+    }
+  ],
+  "tpc-internal-apps": [
+    {
+      "title": "Travel-O-Pedia",
+      "url": "https://itunes.apple.com/in/app/travel-o-pedia/id810978954?mt=8",
+      "sourceCode": "",
+      "description": "Application is a tour guide for travellers across the world and provides information about destinations - major attractions, events, history, language and safety tips, weather and maps. It provides the facility to store their favourites and access them offline and to create tours for their travel.",
+      "role": "Frontend Development",
+      "technologies": ["HTML5", "CSS3", "JavaScript", "SQLite", "LocalStorage", "MetroUI"],
+      "media": ["media/projects/travelopedia-1.png", "media/projects/travelopedia-2.png", "media/projects/travelopedia-3.png", "media/projects/travelopedia-4.png", "media/projects/travelopedia-5.png"],
+      "client": "",
+      "type": "Mobile application (iPhone, iPad, Android mobiles and Tablets)"
+    },
+    {
+      "title": "iConference",
+      "url": "",
+      "sourceCode": "",
+      "description": "Application is used by attendees in large conferences in order to build their Agenda; see all sessions at one glance, day-wise, venue-wise or type-wise; locate the venue in maps, search for different sessions, share their contacts using QR Technology, maintain their profile as well as QR Code for sharing; maintain their communities for sharing anything instantly; networking among like- minded people and access to twitter.",
+      "role": "Frontend Development",
+      "technologies": ["HTML5", "CSS3", "JavaScript", "SQLite", "LocalStorage"],
+      "media": ["media/projects/iconference-1.png", "media/projects/iconference-2.png", "media/projects/iconference-3.png", "media/projects/iconference-4.png", "media/projects/iconference-5.png", "media/projects/iconference-6.png", "media/projects/iconference-7.png", "media/projects/iconference-8.png", "media/projects/iconference-9.png", "media/projects/iconference-10.png", "media/projects/iconference-11.png", "media/projects/iconference-12.png"],
+      "client": "",
+      "type": "Mobile application (iPhone, iPad, Android mobiles and Tablets)"
+    },
+    {
+      "title": "CloudPhire",
+      "url": "http://www.cloudphire.com/",
+      "sourceCode": "",
+      "description": "CloudPhire application is built specifically for SAPPHIRE visitors. It provides access to all tweets, vine videos and twitpics posted on Twitter with ‚#sapphire‛ as hashtag. Application received great response at the event as mentioned in The Wall Street Journal: http://online.wsj.com/article/PR-CO-20130514-913982.html?mod=googlenews_ws",
+      "role": "Frontend Development",
+      "technologies": ["HTML5", "CSS3", "JavaScript", "Responsive design", "Multiple browser support"],
+      "media": ["media/projects/cloudphire-1.png", "media/projects/cloudphire-2.png", "media/projects/cloudphire-3.png", "media/projects/cloudphire-4.png", "media/projects/cloudphire-5.png", "media/projects/cloudphire-6.png"],
+      "client": "",
+      "type": "Mobile application"
+    },
+    {
+      "title": "Intranet - Employee Suit",
+      "url": "http://www.cloudphire.com/",
+      "sourceCode": "",
+      "description": "Intranet is used for employee information management internally in TPC, where employees can make leave requests, employee referals, add billable/non-billable expenses, submit their timesheets. Managers can create projects and assign tasks to team members along with other functionalities.",
+      "role": "Frontend Development",
+      "technologies": ["PHP", "SQL Server 2008", "SSRS", "HTML", "CSS","Javascript"],
+      "media": ["media/projects/intrante-1.png"],
+      "client": "",
+      "type": "Web application"
+    },
+    {
+      "title": "Nuway Address Book",
+      "url": "",
+      "sourceCode": "",
+      "description": "NAB application allows user to access all their contacts at one place with easy to access and user-friendly UI. Calling/Sending an email to a contact is just a tap away. User can easily access Facebook/LinkedIn profiles of their contacts from the app. Offline Storage Enabled.",
+      "role": "Frontend Development",
+      "technologies": ["HTML", "CSS","Javascript", "SQLite"],
+      "media": ["media/projects/nab-1.png", "media/projects/nab-2.png", "media/projects/nab-3.png", "media/projects/nab-4.png", "media/projects/nab-5.png", "media/projects/nab-6.png", "media/projects/nab-7.png", "media/projects/nab-8.png", "media/projects/nab-9.png", "media/projects/nab-10.png"],
+      "client": "",
+      "type": "Mobile application (iPhone, iPad, Android Phones and Tablets)"
+    },
+    {
+      "title": "My Blog",
+      "url": "",
+      "sourceCode": "",
+      "description": "Simple RSS feed reader",
+      "role": "Fullstack Development",
+      "technologies": ["HTML", "CSS","Javascript"],
+      "media": ["media/projects/my-blog-1.png", "media/projects/my-blog-2.png"],
+      "client": "",
+      "type": "Mobile application"
+    },
+    {
+      "title": "Aapka Dost",
+      "url": "",
+      "sourceCode": "",
+      "description": "Aapka Dost application is your new friend in the city to guide you through all the events, movies or restaurants you are searching for. Music lovers can enjoy radio while driving or anytime they want. Application allows user to book ticket for the event they are willing to attend through high secure Paypal Express Checkout.",
+      "role": "Frontend Development",
+      "technologies": ["Adobe Flash Builder", "ActionScript"],
+      "media": ["media/projects/aapka-dost-1.png", "media/projects/aapka-dost-2.png", "media/projects/aapka-dost-3.png", "media/projects/aapka-dost-4.png", "media/projects/aapka-dost-5.png"],
+      "client": "",
+      "type": "Mobile application"
+    },
+    {
+      "title": "Santa Jokes",
+      "url": "",
+      "sourceCode": "",
+      "description": "Simple RSS feed reader",
+      "role": "Fullstack Development",
+      "technologies": ["Titanium Appcelerator"],
+      "media": ["media/projects/santa-jokes-1.png", "media/projects/santa-jokes-2.png"],
+      "client": "",
+      "type": "Mobile application"
     }
   ]
 }
