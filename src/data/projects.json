@@ -138,6 +138,17 @@
       "type": "Enterprise Mobile Application"
     },
     {
+      "title": "Sample Training Kit",
+      "url": "",
+      "sourceCode": "",
+      "description": "Application is used by OraSure Sales Rep to register doctors for Sample Kit Training and schedules the training depending upon their availability. Application auto detects timezone among EST, CST, MST, PST and loads the training schedules accordingly.",
+      "role": "Fullstack Development",
+      "technologies": ["Cordova", "HTML5", "CSS3", "JavaScript"],
+      "media": ["media/projects/sample-training-kit-1.png", "media/projects/sample-training-kit-2.png", "media/projects/sample-training-kit-3.png"],
+      "client": "Orasure Inc.",
+      "type": "POC - Web Solution"
+    },
+    {
       "title": "Smithfield eCAR",
       "url": "https://ecar.smithfield.com",
       "sourceCode": "",
@@ -149,7 +160,7 @@
       "type": "Web Application"
     },
     {
-      "title": "Smithfield eCAR",
+      "title": "Smithfield eCAR Mobile",
       "url": "",
       "sourceCode": "",
       "description": "Application allows the managers to view the CARs waiting for their review in queue. Each CAR itself drills down to detailed information, list of attached documents, all reviewers in process and an interface where manager can approve/reject the request or leave a comment.",
@@ -169,17 +180,6 @@
       "media": ["media/projects/qr-mobile-1.png", "media/projects/qr-mobile-2.png", "media/projects/qr-mobile-3.png", "media/projects/qr-mobile-4.png"],
       "client": "Orasure Inc.",
       "type": "Enterprise Mobile Application"
-    },
-    {
-      "title": "Sample Training Kit",
-      "url": "",
-      "sourceCode": "",
-      "description": "Application is used by OraSure Sales Rep to register doctors for Sample Kit Training and schedules the training depending upon their availability. Application auto detects timezone among EST, CST, MST, PST and loads the training schedules accordingly.",
-      "role": "Fullstack Development",
-      "technologies": ["Cordova", "HTML5", "CSS3", "JavaScript"],
-      "media": ["media/projects/sample-training-kit-1.png", "media/projects/sample-training-kit-2.png", "media/projects/sample-training-kit-3.png"],
-      "client": "Orasure Inc.",
-      "type": "POC - Web Solution"
     },
     {
       "title": "IGH Pro",
