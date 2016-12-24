@@ -13,8 +13,12 @@
     opacity: 0.78;
     color: @white;
     padding: @unit-computed * 1.5;
-    position: absolute;
-    top: 100px;
-    left: 100px;
+    margin-top: @unit-computed * 4;
+    width: 450px;
+
+    @media (max-width: 480px) {
+      padding: @unit-computed @unit-computed * 0.5;
+      width: 375px;
+    }
   }
 }
