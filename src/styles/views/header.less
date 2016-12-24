@@ -1,0 +1,53 @@
+.header {
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+
+  .navbar-default {
+    background-color: @primary;
+    border-radius: 0;
+    border-color: @primary-900;
+
+    .navbar-brand {
+      color: @white;
+    }
+
+    .navbar-nav > li > a {
+      color: @white;
+    }
+
+    .navbar-nav > li {
+      &:hover {
+        background-color: @gray-lightest;
+
+        & > a {
+          color: @primary;
+        }
+      }
+    }
+
+    .navbar-toggle {
+      background-color: @white;
+      border: 1px solid @white;
+
+      .icon-bar {
+        background-color: @accent;
+      }
+
+      &:hover {
+        background-color: @gray-lighter;
+      }
+    }
+  }
+
+  a {
+    color: @white;
+
+    &:focus,
+    &:active,
+    &:hover {
+      color: @accent;
+    }
+  }
+}
