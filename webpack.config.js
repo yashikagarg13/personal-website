@@ -1,7 +1,11 @@
 const webpack = require('webpack');
 const Path = require("path");
+const CleanWebpackPlugin = require('clean-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
+
+const SRC_DIR = Path.join(__dirname, "src");
 
 const config = {
   context: __dirname,
@@ -29,6 +33,15 @@ const config = {
     ]
   },
   plugins: [
+    new CleanWebpackPlugin(['public'], {
+      root: Path.join(__dirname, "/"),
+      verbose: true,
+      dry: false
+    }),
+    new CopyWebpackPlugin([
+      {from: SRC_DIR + "/data/media", to:  "media"},
+      {from: SRC_DIR + "/data/images", to:  "images"},
+    ]),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify("production")
     }),
