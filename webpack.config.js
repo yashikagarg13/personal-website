@@ -30,6 +30,9 @@ const config = {
 
       // LESS: https://github.com/webpack/less-loader
       {test: /\.(less(\?.*)?)$/, loader: ExtractTextPlugin.extract('style', 'css!less')},
+
+      // JSON
+      {test: /\.(json(\?.*)?)$/,  loaders: ["json-loader"]},
     ]
   },
   plugins: [
