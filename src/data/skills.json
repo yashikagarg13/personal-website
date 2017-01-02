@@ -1,5 +1,5 @@
 {
-  "Expertise": ["MVC architecture", "OOPs", "Algorithms", "Problem Solving"],
+  "Expertise": ["Problem Solving", "Algorithms", "MVC architecture",  "OOPs", "Functional Programming"],
   "Languages": ["JavaScript", "ES6", "HTML", "CSS", "LESS", "PHP", "Java"],
   "Frontend": ["ReactJS", "AngularJS", "jQuery", "Bootstrap", "Webpack", "GruntJS", "Responsive Design"],
   "Unit Testing": ["Karma", "Jest", "Mocha"],

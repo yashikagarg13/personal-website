@@ -1,0 +1,36 @@
+.skills {
+  border-bottom: 1px solid @gray-lighter;
+  padding: @unit-computed * 2 0;
+
+  .box {
+    background-color: @gray-lightest;
+    border: 1px solid @gray-lighter;
+    color: @black;
+    margin-top: @unit-computed * 2;
+    padding: @unit-computed;
+    text-align: left;
+
+    .list-caption {
+      color: @black;
+      display: inline-block;
+      opacity: 0.54;
+      width: 200px;
+    }
+
+    .list {
+      display: inline;
+      list-style: none;
+      padding: 0;
+
+      .list-item {
+        background-color: @accent;
+        border-radius: @border-radius-sm;
+        color: @white;
+        display: inline-block;
+        font-size: @font-size-xs;
+        margin-right: @unit-computed / 4;
+        padding: @unit-computed / 6;
+      }
+    }
+  }
+}
