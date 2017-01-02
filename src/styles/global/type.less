@@ -1,7 +1,7 @@
 body, html {
   font-family: @font-family;
   font-size: @font-size-base;
-  background: @gray-lightest;
+  background: @white;
   color: @black;
   padding: 0;
   margin: 0;
@@ -44,6 +44,37 @@ body, html {
   &.xxs {
     font-size: @font-size-xxs;
     line-height: round(@line-height * @font-size-xxs);
+  }
+
+  // Colors
+  &.primary {
+    color: @primary;
+  }
+
+  &.primary-900 {
+    color: @primary-900;
+  }
+
+  &.accent {
+    color: @accent;
+  }
+
+  // Transform
+  &.uppercase {
+    text-transform: uppercase;
+  }
+
+  &.lowercase {
+    text-transform: lowercase;
+  }
+
+  // Weight
+  &.bold {
+    font-weight: bold;
+  }
+
+  &.bolder {
+    font-weight: bolder;
   }
 }
 
