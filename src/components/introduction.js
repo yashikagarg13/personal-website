@@ -2,7 +2,7 @@ import React from "react";
 
 const Introduction = () => {
   return (
-    <div id="#introduction" className="introduction">
+    <div id="introduction" className="introduction">
       <div className="container text-center">
         <i className="fa fa-user margin-right-xs lg primary text" aria-hidden="true"></i>
         <span className="lg uppercase bold text">Introduction</span>

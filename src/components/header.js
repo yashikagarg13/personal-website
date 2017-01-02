@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router";
 
 const Header = () => {
   return (
@@ -23,23 +24,23 @@ const Header = () => {
                   <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button"
                     aria-haspopup="true" aria-expanded="false">About <span className="caret"></span></a>
                   <ul className="dropdown-menu md text">
-                    <li><a href="#introduction">Introduction</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#eductaion">Education</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#interests">Interests</a></li>
+                    <li><Link to="/#introduction">Introduction</Link></li>
+                    <li><Link to="/#skills">Skills</Link></li>
+                    <li><Link to="/#eductaion">Education</Link></li>
+                    <li><Link to="/#experience">Experience</Link></li>
+                    <li><Link to="/#interests">Interests</Link></li>
                   </ul>
                 </li>
                 <li>
                   <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button"
                     aria-haspopup="true" aria-expanded="false">Work <span className="caret"></span></a>
                   <ul className="dropdown-menu md text">
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#blogs">Blogs</a></li>
-                    <li><a href="#video">Videos</a></li>
+                    <li><Link to="/#projects">Projects</Link></li>
+                    <li><Link to="/#blogs">Blogs</Link></li>
+                    <li><Link to="/#video">Videos</Link></li>
                   </ul>
                 </li>
-                <li><a href="#contact">Contact</a></li>
+                <li><Link to="/#contact">Contact</Link></li>
               </ul>
             </div>
           </div>

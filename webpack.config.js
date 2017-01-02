@@ -6,6 +6,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 
 const SRC_DIR = Path.join(__dirname, "src");
+const NODE_MODULES = Path.join(__dirname, "node_modules");
 
 const config = {
   context: __dirname,
@@ -44,6 +45,7 @@ const config = {
     new CopyWebpackPlugin([
       {from: SRC_DIR + "/data/media", to:  "media"},
       {from: SRC_DIR + "/data/images", to:  "images"},
+      {from: NODE_MODULES + "/jquery/dist/", to:  "js/scripts"},
     ]),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify("production")

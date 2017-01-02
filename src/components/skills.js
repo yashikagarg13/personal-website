@@ -4,7 +4,7 @@ import SkillsData from "../data/skills";
 
 const Skills = () => {
   return (
-    <div id="#skills" className="skills">
+    <div id="skills" className="skills">
       <div className="container text-center">
         <i className="fa fa-star margin-right-xs lg primary text" aria-hidden="true"></i>
         <span className="lg uppercase bold text">Skills</span>

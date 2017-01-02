@@ -15,6 +15,14 @@
       display: inline-block;
       opacity: 0.54;
       width: 200px;
+
+      @media (max-width: @screen-sm) {
+        display: block;
+      }
+
+      @media (min-width: @screen-sm) and (max-width: @screen-md) {
+        width: 150px;
+      }
     }
 
     .list {
@@ -29,6 +37,7 @@
         display: inline-block;
         font-size: @font-size-xs;
         margin-right: @unit-computed / 4;
+        margin-bottom: @unit-computed / 4;
         padding: @unit-computed / 6;
       }
     }
