@@ -1,0 +1,28 @@
+.interests {
+  border-bottom: 1px solid @gray-lighter;
+  padding: @unit-computed * 2 0;
+
+  .box {
+    background-color: @gray-lightest;
+    border: 1px solid @gray-lighter;
+    color: @black;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: @unit-computed * 2;
+    padding: @unit-computed;
+
+    .interest-block {
+      background-color: @white;
+      border: 1px solid @gray-lighter;
+      border-right: 0;
+      color: @accent;
+      flex-grow: 1;
+      padding: @unit-computed;
+      text-align: center;
+
+      &:last {
+        border-right: 1px solid @gray-lighter;
+      }
+    }
+  }
+}

@@ -1,22 +1,22 @@
 [
   {
+    "title": "Coding",
+    "icon": "code"
+  },
+  {
     "title": "Dance",
     "icon": "sentiment_very_satisfied"
+  },
+  {
+    "title": "Fitness",
+    "icon": "fitness_center"
   },
   {
     "title": "Celebrations",
     "icon": "cake"
   },
   {
-    "title": "Health",
-    "icon": "fitness-center"
-  },
-  {
     "title": "Volunteering",
     "icon": "public"
-  },
-  {
-    "title": "Listening Music",
-    "icon": "queue_music"
   }
 ]

@@ -3,6 +3,7 @@ import React, {PropTypes} from "react";
 import Header from "./header";
 import CoverImage from "./cover-image";
 import Introduction from "./introduction";
+import Interests from "./interests";
 import Skills from "./skills";
 
 export default class App extends React.Component {
@@ -21,6 +22,7 @@ export default class App extends React.Component {
           <CoverImage />
           <Introduction />
           <Skills />
+          <Interests />
         </div>
       </div>
     );
