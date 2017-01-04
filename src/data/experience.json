@@ -4,7 +4,7 @@
     "companyUrl": "https://powertofly.com",
     "position": "Frontend Developer",
     "timePeriod": "August 2015 - Present",
-    "role": "Responsibilities: \n* Develop modules for enhancing talent experience \n* Improve architecture and performance of application \n* Participate in techincal discussions and bring solutions \n* Researching, integrating and maintaining libraries \n* Provide trainings to team members \n* Reviewing code \n* Maintaining documentation \n* Coordinating with Backend, Design and QA teams",
+    "role": "<b>Responsibilities:</b> <br />* Develop modules for enhancing talent experience <br />* Improve architecture and performance of application <br />* Participate in techincal discussions and bring solutions <br />* Researching, integrating and maintaining libraries <br />* Provide trainings to team members <br />* Reviewing code <br />* Maintaining documentation <br />* Coordinating with Backend, Design and QA teams",
     "technologies": ["ReactJS", "HTML5", "CSS3", "ES6", "jQuery", "Jinja", "Flask", "D3Js", "Jest", "Bootstrap", "Webpack", "Git"]
   },
   {
@@ -12,7 +12,7 @@
     "companyUrl": "https://crossover.com",
     "position": "Frontend Developer",
     "timePeriod": "January 2015 - December 2015",
-    "role": "Responsibilities: \n* Develop modules for enhancing pipeline experience \n* Development and maintainece of TechTrial website \n* Evaluating applicant profiles for frontent and interaction design pipelines \n* Improving architecture and performance of application \n* Coordinating with other developers in frontend team as well as with Backened, QA and Design teams",
+    "role": "<b>Responsibilities:</b> <br />* Develop modules for enhancing pipeline experience <br />* Development and maintenance of TechTrial website <br />* Researching, integrating and maintaining libraries <br />* Evaluating applicant profiles for frontend and interaction design pipelines <br />* Improving architecture and performance of application <br />* Maintaining documentation <br />* Coordinating with other developers in frontend team as well as with Backend, Design and QA teams",
     "technologies": ["AngularJS", "HTML5", "CSS3", "Google Charts", "Karma", "Advanced UIs", "Bootstrap", "GruntJS", "SVN"]
   },
   {
@@ -20,7 +20,7 @@
     "companyUrl": "https://www.tpcus.com",
     "position": "Solution Architect",
     "timePeriod": "June 2013 - December 2014",
-    "role": "Responsibilities: \n* Develop hybrid mobile applications \n* Researching and implementing generic structures \n* Researching and implementing expandable, reusable database architectures \n* Monitoring team member's progress and participation \n* Assigning tasks to team members \n* Reviewing code \n* Coordinating with clients and offshore teams",
+    "role": "<b>Responsibilities:</b> <br />* Develop hybrid mobile applications <br />* Researching and implementing generic structures <br />* Researching and implementing expandable, reusable database architectures <br />* Monitoring team member's progress and participation <br />* Assigning tasks to team members <br />* Reviewing code <br />* Coordinating with clients and offshore teams",
     "technologies": ["HTML5", "CSS", "JavaScript", "Apache Cordova", "Semantic-UI", "MS SQL Server", "SAP Fiori", "SAPUI5", "PHP", "Java", "J2EE", "Git"]
   },
   {
@@ -28,7 +28,7 @@
     "companyUrl": "https://www.tpcus.com",
     "position": "Software Engineer",
     "timePeriod": "June 2011 - May 2013",
-    "role": "Responsibilities: \n* Developing web solutions for clients and internal team \n* Developing enterprise applications for clients \n* Developing hybrid mobile applicationsunder internal projects \n* Monitoring team member's progress and participation \n* Distributing tasks among team members \n* Coordinating with clients and offshore teams",
+    "role": "<b>Responsibilities:</b> <br />* Developing web solutions for clients and internal team <br />* Developing enterprise applications for clients <br />* Developing hybrid mobile applicationsunder internal projects <br />* Monitoring team member's progress and participation <br />* Distributing tasks among team members <br />* Coordinating with clients and offshore teams",
     "technologies": ["Appcelerator Titanium", "Adobe Flash Builder", "Sybase Unwired Platform", "MOB", "HTML5", "CSS", "JavaScript", "Apache Cordova", "MS SQL Server", "Quickbase", "MySQL", "Webservice - REST/SOAP", "SSRS"]
   }
 ]
