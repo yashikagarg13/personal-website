@@ -26,7 +26,7 @@ const Header = () => {
                   <ul className="dropdown-menu md text">
                     <li><Link to="/#introduction">Introduction</Link></li>
                     <li><Link to="/#skills">Skills</Link></li>
-                    <li><Link to="/#eductaion">Education</Link></li>
+                    <li><Link to="/#education">Education</Link></li>
                     <li><Link to="/#experience">Experience</Link></li>
                     <li><Link to="/#interests">Interests</Link></li>
                   </ul>
