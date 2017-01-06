@@ -6,6 +6,7 @@ import Experience from "./experience";
 import Header from "./header";
 import Introduction from "./introduction";
 import Interests from "./interests";
+import Projects from "./projects";
 import Skills from "./skills";
 
 export default class App extends React.Component {
@@ -27,6 +28,7 @@ export default class App extends React.Component {
           <Education />
           <Experience />
           <Interests />
+          <Projects />
         </div>
       </div>
     );

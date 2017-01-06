@@ -1,95 +1,57 @@
-/*
-1. Github Battle
-2. Weather Forecast
-3. Typography - Solving major challenges
-4. Budget Manager
-*/
-
-/*
-1. PowerToFly Website
-2. Crossover Website
-3. Crossover Techtrial Website
-
-5. Smithfield Enterprise Web Solution *
-6. Smithfield Enterprise Mobile App
-7. Orasure QR Mobile App
-17. Orasure - Sample Training Kit - Mobile Application
-10. OneAppCloud IGH Pro Mobile App *
-12. Honeywell - HR Performance Enterprise Mobile Application
-13. Hollister - US Bedside Enrollment.
-
-
-*/
-
-
-/*
-14. Aapka Dost Mobile Application
-15. Nuway Address Book Mobile Application
-16. Santa Banta Mobile Application
-4. Travelopedia Mobile App
-8. iConference Mobile App
-9. CloudPhire Web App
-11. Intranet - Employee Suit Web Solution*/
-
-/*
- - Personal
- - PowerToFly
- - Crossover
- - TPC Enterprise Apps
- - TPC Internal Apps
-*/
-
-
-
 {
-  "personal": [
+  "Personal": [
     {
+      "id": 1,
       "title": "Budget Manager (In Progress)",
       "url": "",
       "sourceCode": "https://github.com/yashikagarg13/budget-manager",
       "description": "Web solution for maintaining expense enteries and generating monthly/quarterly/yearly reports.",
-      "role": "Fullstack Development",
+      "role": "Fullstack Developer",
       "technologies": ["ReactJs", "NodeJS", "Express", "MongoDB", "Webpack", "Eslint"],
       "media": [],
       "client": "",
       "type": "Web Application"
     },
     {
+      "id": 2,
       "title": "Weather Forecast",
-      "url": "",
+      "url": "Fullstack Developer",
       "sourceCode": "https://github.com/yashikagarg13/WeatherForecast",
       "description": "Application built to understand and implement ReactJS fundamentals like Stateless functional components, react-router and prop types.",
-      "role": "Frontend Development",
+      "role": "Frontend Developer",
       "technologies": ["ReactJs", "React Router", "Webpack"],
       "media": ["media/projects/weather-forecast-1.png", "media/projects/weather-forecast-2.png", "media/projects/weather-forecast-3.png"],
       "client": "",
       "type": "Web Application"
     },
     {
-      "title": "Typography - Solving Major Challenges",
-      "url": "",
+      "id": 3,
+      "title": "Typography Challenges",
+      "url": "Frontend Developer",
       "sourceCode": "https://github.com/yashikagarg13/typography-basics",
       "description": "Application describing different challenges of attaining good typography and their solution.",
-      "role": "",
+      "role": "Frontend Developer",
       "technologies": ["LESS", "Responsive Design", "Typographic Basics"],
       "media": ["media/projects/typography.png"],
       "client": "",
       "type": "Web Application"
     },
     {
+      "id": 4,
       "title": "Github Battle",
       "url": "",
       "sourceCode": "https://github.com/yashikagarg13/react-practise",
       "description": "Application built to understand basic concepts of React JS. In this application, two github users are compared based on number of followers and number of stars.",
-      "role": "",
+      "role": "Frontend Developer",
       "technologies": ["ReactJS", "React Router", "Babel", "ES6", "Webpack"],
       "media": ["media/projects/github-battle-1.png", "media/projects/github-battle-2.png"],
       "client": "",
       "type": "Web Application"
     }
   ],
-  "powertofly": [
+  "PowerToFly": [
     {
+      "id": 1,
       "title": "PowerToFly",
       "url": "https://www.powertofly.com",
       "sourceCode": "",
@@ -101,8 +63,9 @@
       "type": "Web Application"
     }
   ],
-  "crossover": [
+  "Crossover": [
     {
+      "id": 1,
       "title": "Crossover",
       "url": "https://www.crossover.com",
       "sourceCode": "",
@@ -114,6 +77,7 @@
       "type": "Web Application"
     },
     {
+      "id": 2,
       "title": "Crossover Techtrial",
       "url": "https://techtrial.crossover.com",
       "sourceCode": "",
@@ -125,184 +89,200 @@
       "type": "Web Application"
     }
   ],
-  "tpc-enterprise-apps": [
+  "TPC Enterprise": [
     {
+      "id": 1,
       "title": "PetEdge",
       "url": "",
       "sourceCode": "",
       "description": "Petedge application is used to see the list of orders placed, their current status and other details.",
-      "role": "Architect, Frontend development",
+      "role": "Architect, Frontend Developer",
       "technologies": ["HTML", "CSS", "Javascript", "LocalStorage"],
       "media": ["media/projects/petedge-1.png", "media/projects/petedge-2.png", "media/projects/petedge-3.png", "media/projects/petedge-4.png", "media/projects/petedge-5.png"],
-      "client": "Smithfield Foods Inc.",
-      "type": "Enterprise Mobile Application"
+      "client": "PetEdge",
+      "type": "Enterprise Mobile App"
     },
     {
+      "id": 2,
       "title": "Sample Training Kit",
       "url": "",
       "sourceCode": "",
       "description": "Application is used by OraSure Sales Rep to register doctors for Sample Kit Training and schedules the training depending upon their availability. Application auto detects timezone among EST, CST, MST, PST and loads the training schedules accordingly.",
-      "role": "Fullstack Development",
+      "role": "Fullstack Developer",
       "technologies": ["Cordova", "HTML5", "CSS3", "JavaScript"],
       "media": ["media/projects/sample-training-kit-1.png", "media/projects/sample-training-kit-2.png", "media/projects/sample-training-kit-3.png"],
       "client": "Orasure Inc.",
       "type": "POC - Web Solution"
     },
     {
+      "id": 3,
       "title": "Smithfield eCAR",
       "url": "https://ecar.smithfield.com",
       "sourceCode": "",
       "description": "eCAR is an application that helps client to create a ‚Capital Appropriation Request‛ that include all the details about the CAR. A particular CAR, once submitted to the flow goes through different steps for review, where reviewers can approve/decline/resubmit the CAR.",
-      "role": "Architect, Fullstack development",
+      "role": "Architect, Fullstack Developer",
       "technologies": ["PHP", "MS SQL Server", "HTML", "CSS", "Javascript", "SSRS"],
-      "media": ["media/projects/smithfield-web-app-1"],
+      "media": ["media/projects/smithfield-web-app-1.png"],
       "client": "Smithfield Foods Inc.",
       "type": "Web Application"
     },
     {
+      "id": 4,
       "title": "Smithfield eCAR Mobile",
       "url": "",
       "sourceCode": "",
       "description": "Application allows the managers to view the CARs waiting for their review in queue. Each CAR itself drills down to detailed information, list of attached documents, all reviewers in process and an interface where manager can approve/reject the request or leave a comment.",
-      "role": "Mobile application development",
+      "role": "Mobile Application Developer",
       "technologies": ["Sybase Unwired Platform", "HTML", "CSS", "Mobile Business Objects", "SOAP Web-services"],
       "media": ["media/projects/smithfield-mobile-app-1.png", "media/projects/smithfield-mobile-app-2.png", "media/projects/smithfield-mobile-app-3.png", "media/projects/smithfield-mobile-app-4.png"],
       "client": "Smithfield Foods Inc.",
-      "type": "Enterprise Mobile Application"
+      "type": "Enterprise Mobile App"
     },
     {
+      "id": 5,
       "title": "QR Mobile",
       "url": "",
       "sourceCode": "",
       "description": "QR Mobile application allows sales professionals to better understand their clients based on aggregating and understanding purchase history and provides prioritized client forecasts",
-      "role": "Mobile application development",
+      "role": "Mobile Application Developer",
       "technologies": ["Adobe Flash Builder", "Action Script"],
       "media": ["media/projects/qr-mobile-1.png", "media/projects/qr-mobile-2.png", "media/projects/qr-mobile-3.png", "media/projects/qr-mobile-4.png"],
       "client": "Orasure Inc.",
-      "type": "Enterprise Mobile Application"
+      "type": "Enterprise Mobile App"
     },
     {
+      "id": 6,
       "title": "IGH Pro",
       "url": "",
       "sourceCode": "",
       "description": "Application allows user to search jobs and teep track of opportunities, events and interviews scheduled.",
-      "role": "Mobile Application Development",
+      "role": "Mobile Application Developer",
       "technologies": ["Adobe Flash Builder", "ActionScript"],
       "media": ["media/projects/"],
       "client": "OneAppCloud",
-      "type": "Enterprise mobile application (iPhone, iPad)"
+      "type": "Enterprise Mobile App"
     },
     {
+      "id": 7,
       "title": "HR Performance",
       "url": "",
       "sourceCode": "",
       "description": "Application used by Honeywell managers/executives to view their annual reports, track the progress of their tasks, request, view or submit feedback for employees.",
-      "role": "Mobile Application Development",
+      "role": "Mobile Application Developer",
       "technologies": ["Sybase Unwired Platform", "Mobile business objects", "HTML"],
       "media": ["media/projects/honeywell-1.png", "media/projects/honeywell-2.png", "media/projects/honeywell-3.png", "media/projects/honeywell-4.png"],
       "client": "HoneyWell",
-      "type": "Enterprise mobile application (iPhone, iPad, Blackberry)"
+      "type": "Enterprise Mobile App"
     },
     {
+      "id": 8,
       "title": "US Bedside Enrollment",
       "url": "",
       "sourceCode": "",
       "description": "Application used by Hollister’s clinical customers for obtaining patient’s information and his signatures upon enrollment into Secure Start Program and sends a confirmation email with required information to Secure Start Associate and nurse/clinician.",
-      "role": "Backend Development - SOAP Web services",
+      "role": "Backend Developer (SOAP Web services)",
       "technologies": ["J2EE", "JDBC", "Email API"],
       "media": ["media/projects/bedside-enrollment-1.png", "media/projects/bedside-enrollment-2.png"],
       "client": "Hollister Global",
-      "type": "Enterprise mobile application"
+      "type": "Enterprise Mobile App"
     }
   ],
-  "tpc-internal-apps": [
+  "TPC Internal": [
     {
+      "id": 1,
       "title": "Travel-O-Pedia",
       "url": "https://itunes.apple.com/in/app/travel-o-pedia/id810978954?mt=8",
       "sourceCode": "",
       "description": "Application is a tour guide for travellers across the world and provides information about destinations - major attractions, events, history, language and safety tips, weather and maps. It provides the facility to store their favourites and access them offline and to create tours for their travel.",
-      "role": "Frontend Development",
+      "role": "Mobile Application Developer",
       "technologies": ["HTML5", "CSS3", "JavaScript", "SQLite", "LocalStorage", "MetroUI"],
       "media": ["media/projects/travelopedia-1.png", "media/projects/travelopedia-2.png", "media/projects/travelopedia-3.png", "media/projects/travelopedia-4.png", "media/projects/travelopedia-5.png"],
       "client": "",
-      "type": "Mobile application (iPhone, iPad, Android mobiles and Tablets)"
+      "type": "Mobile Application"
     },
     {
+      "id": 2,
       "title": "iConference",
       "url": "",
       "sourceCode": "",
       "description": "Application is used by attendees in large conferences in order to build their Agenda; see all sessions at one glance, day-wise, venue-wise or type-wise; locate the venue in maps, search for different sessions, share their contacts using QR Technology, maintain their profile as well as QR Code for sharing; maintain their communities for sharing anything instantly; networking among like- minded people and access to twitter.",
-      "role": "Frontend Development",
-      "technologies": ["HTML5", "CSS3", "JavaScript", "SQLite", "LocalStorage"],
+      "role": "Mobile Application Developer",
+      "technologies": ["HTML5", "CSS3", "JavaScript", "Cordova", "SQLite", "LocalStorage"],
       "media": ["media/projects/iconference-1.png", "media/projects/iconference-2.png", "media/projects/iconference-3.png", "media/projects/iconference-4.png", "media/projects/iconference-5.png", "media/projects/iconference-6.png", "media/projects/iconference-7.png", "media/projects/iconference-8.png", "media/projects/iconference-9.png", "media/projects/iconference-10.png", "media/projects/iconference-11.png", "media/projects/iconference-12.png"],
       "client": "",
-      "type": "Mobile application (iPhone, iPad, Android mobiles and Tablets)"
+      "type": "Mobile Application"
     },
     {
-      "title": "CloudPhire",
+      "id": 3,
+      "title": "CloudPhire  ",
       "url": "http://www.cloudphire.com/",
       "sourceCode": "",
       "description": "CloudPhire application is built specifically for SAPPHIRE visitors. It provides access to all tweets, vine videos and twitpics posted on Twitter with ‚#sapphire‛ as hashtag. Application received great response at the event as mentioned in The Wall Street Journal: http://online.wsj.com/article/PR-CO-20130514-913982.html?mod=googlenews_ws",
-      "role": "Frontend Development",
-      "technologies": ["HTML5", "CSS3", "JavaScript", "Responsive design", "Multiple browser support"],
+      "role": "Mobile Application Developer",
+      "technologies": ["HTML5", "CSS3", "JavaScript", "Cordova", "Responsive design", "Multiple browser support"],
       "media": ["media/projects/cloudphire-1.png", "media/projects/cloudphire-2.png", "media/projects/cloudphire-3.png", "media/projects/cloudphire-4.png", "media/projects/cloudphire-5.png", "media/projects/cloudphire-6.png"],
       "client": "",
-      "type": "Mobile application"
+      "type": "Mobile Application"
     },
     {
+      "id": 4,
       "title": "Intranet - Employee Suit",
       "url": "http://www.cloudphire.com/",
       "sourceCode": "",
       "description": "Intranet is used for employee information management internally in TPC, where employees can make leave requests, employee referals, add billable/non-billable expenses, submit their timesheets. Managers can create projects and assign tasks to team members along with other functionalities.",
-      "role": "Frontend Development",
+      "role": "Fullstack Developer",
       "technologies": ["PHP", "SQL Server 2008", "SSRS", "HTML", "CSS","Javascript"],
-      "media": ["media/projects/intrante-1.png"],
+      "media": ["media/projects/intranet-1.png"],
       "client": "",
-      "type": "Web application"
+      "type": "Web Application"
     },
     {
+      "id": 5,
       "title": "Nuway Address Book",
       "url": "",
       "sourceCode": "",
       "description": "NAB application allows user to access all their contacts at one place with easy to access and user-friendly UI. Calling/Sending an email to a contact is just a tap away. User can easily access Facebook/LinkedIn profiles of their contacts from the app. Offline Storage Enabled.",
-      "role": "Frontend Development",
-      "technologies": ["HTML", "CSS","Javascript", "SQLite"],
+      "role": "Mobile Application Developer",
+      "technologies": ["HTML", "CSS", "Javascript", "SQLite", "Cordova"],
       "media": ["media/projects/nab-1.png", "media/projects/nab-2.png", "media/projects/nab-3.png", "media/projects/nab-4.png", "media/projects/nab-5.png", "media/projects/nab-6.png", "media/projects/nab-7.png", "media/projects/nab-8.png", "media/projects/nab-9.png", "media/projects/nab-10.png"],
       "client": "",
-      "type": "Mobile application (iPhone, iPad, Android Phones and Tablets)"
+      "type": "Mobile Application"
     },
     {
+      "id": 6,
       "title": "My Blog",
       "url": "",
       "sourceCode": "",
       "description": "Simple RSS feed reader",
-      "role": "Fullstack Development",
-      "technologies": ["HTML", "CSS","Javascript"],
+      "role": "Mobile Application Developer",
+      "technologies": ["HTML", "CSS", "Javascript", "Cordova"],
       "media": ["media/projects/my-blog-1.png", "media/projects/my-blog-2.png"],
       "client": "",
-      "type": "Mobile application"
+      "type": "Mobile Application"
     },
     {
+      "id": 7,
       "title": "Aapka Dost",
       "url": "",
       "sourceCode": "",
       "description": "Aapka Dost application is your new friend in the city to guide you through all the events, movies or restaurants you are searching for. Music lovers can enjoy radio while driving or anytime they want. Application allows user to book ticket for the event they are willing to attend through high secure Paypal Express Checkout.",
-      "role": "Frontend Development",
+      "role": "Mobile Application Developer",
       "technologies": ["Adobe Flash Builder", "ActionScript"],
       "media": ["media/projects/aapka-dost-1.png", "media/projects/aapka-dost-2.png", "media/projects/aapka-dost-3.png", "media/projects/aapka-dost-4.png", "media/projects/aapka-dost-5.png"],
       "client": "",
-      "type": "Mobile application"
+      "type": "Mobile Application"
     },
     {
+      "id": 8,
       "title": "Santa Jokes",
       "url": "",
       "sourceCode": "",
       "description": "Simple RSS feed reader",
-      "role": "Fullstack Development",
+      "role": "Mobile Application Developer",
       "technologies": ["Titanium Appcelerator"],
       "media": ["media/projects/santa-jokes-1.png", "media/projects/santa-jokes-2.png"],
       "client": "",
-      "type": "Mobile application"
+      "type": "Mobile Application"
     }
   ]
 }
