@@ -1,5 +1,6 @@
 import React, {PropTypes} from "react";
 
+import Blogs from "./blogs";
 import CoverImage from "./cover-image";
 import Education from "./education";
 import Experience from "./experience";
@@ -29,6 +30,7 @@ export default class App extends React.Component {
           <Experience />
           <Interests />
           <Projects />
+          <Blogs />
         </div>
       </div>
     );

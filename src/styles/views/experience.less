@@ -17,10 +17,10 @@
       border: 1px solid @gray-lighter;
       flex: 1 49%;
       padding: @unit-computed;
-      margin-bottom: @unit-computed / 2;
+      margin-bottom: round(@unit-computed / 2);
 
       &:nth-child(odd) {
-        margin-right: @unit-computed / 2;
+        margin-right: round(@unit-computed / 2);
       }
 
       @media (max-width: @screen-md) {
@@ -35,21 +35,21 @@
         display: block;
         font-weight: bold;
         margin-bottom: @unit-computed;
-        padding: @unit-computed / 5;
+        padding: round(@unit-computed / 5);
       }
 
       .sub-title {
         font-size: @font-size-sm;
         font-weight: bold;
         color: @black;
-        margin-bottom: @unit-computed / 5;
+        margin-bottom: round(@unit-computed / 5);
         text-align: left;
       }
 
       .description {
         font-size: @font-size-xs;
         color: @black;
-        margin-bottom: @unit-computed / 2;
+        margin-bottom: round(@unit-computed / 2);
         opacity: 0.87;
         text-align: left;
       }
@@ -66,9 +66,9 @@
           float: left;
           font-size: @font-size-xs;
           line-height: 0.8;
-          margin-right: @unit-computed / 4;
-          margin-bottom: @unit-computed / 4;
-          padding: @unit-computed / 4;
+          margin-right: round(@unit-computed / 4);
+          margin-bottom: round(@unit-computed / 4);
+          padding: round(@unit-computed / 4);
         }
       }
     }

@@ -17,8 +17,8 @@
       border: 1px solid @gray-lighter;
       flex: 1 1;
       padding: @unit-computed;
-      margin-bottom: @unit-computed / 2;
-      margin-right: @unit-computed / 2;
+      margin-bottom: round(@unit-computed / 2);
+      margin-right: round(@unit-computed / 2);
 
       @media (max-width: @screen-md) {
         flex: 1 100%;
@@ -32,14 +32,14 @@
         display: block;
         font-weight: bold;
         margin-bottom: @unit-computed;
-        padding: @unit-computed / 5;
+        padding: round(@unit-computed / 5);
       }
 
       .sub-title {
         font-size: @font-size-sm;
         font-weight: bold;
         color: @black;
-        margin-bottom: @unit-computed / 5;
+        margin-bottom: round(@unit-computed / 5);
         text-align: left;
       }
 

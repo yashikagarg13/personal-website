@@ -4,7 +4,7 @@
 
   .box {
     color: @black;
-    margin: @unit-computed * 2 -@unit-computed /2 0 -@unit-computed/2;
+    margin: @unit-computed * 2 -round(@unit-computed / 2) 0 -round(@unit-computed / 2);
     margin-top: @unit-computed * 2;
     display: flex;
     flex-wrap: wrap;
@@ -14,13 +14,13 @@
       border: 1px solid @gray-lighter;
       border-radius: @border-radius-sm;
       flex: 1;
-      margin: 0 @unit-computed /2 @unit-computed @unit-computed/2;
+      margin: 0 round(@unit-computed / 2) @unit-computed round(@unit-computed / 2);
       min-width: 350px;
       text-align: left;
 
       .media-wrapper {
         border-bottom: 1px solid @gray-lighter;
-        margin-bottom: @unit-computed / 5;
+        margin-bottom: round(@unit-computed / 5);
         border-radius: @border-radius-sm;
       }
 
@@ -36,9 +36,9 @@
           float: left;
           font-size: @font-size-xs;
           line-height: 0.8;
-          margin-right: @unit-computed / 4;
-          margin-bottom: @unit-computed / 4;
-          padding: @unit-computed / 4;
+          margin-right: round(@unit-computed / 4);
+          margin-bottom: round(@unit-computed / 4);
+          padding: round(@unit-computed / 4);
         }
       }
     }
@@ -46,7 +46,7 @@
 
   .show-all-btn {
    font-size: @font-size-md;
-   padding: @unit-computed / 4;
+   padding: round(@unit-computed / 4);
    width: 200px;
   }
 }
