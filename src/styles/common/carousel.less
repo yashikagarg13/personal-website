@@ -1,6 +1,24 @@
 .carousel {
-  .carousel-inner>.item>.img {
-    height: 300px;
-    width: auto;
+  .carousel-inner {
+    >.item {
+      text-align: center;
+      background-color: @gray-lighter;
+
+      > .img {
+        height: 190px;
+        width: auto;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .carousel-indicators {
+    background-color: #000;
+    bottom: 0px;
+    left: 30%;
+    margin-bottom: 0;
+    opacity: 0.78;
+    padding: 5px;
+    width: 100%;
   }
 }

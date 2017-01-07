@@ -1,17 +1,5 @@
 [
   {
-    "id": 1,
-    "title": "Budget Manager (In Progress)",
-    "url": "",
-    "sourceCode": "https://github.com/yashikagarg13/budget-manager",
-    "description": "Web solution for maintaining expense enteries and generating monthly/quarterly/yearly reports.",
-    "role": "Fullstack Developer",
-    "technologies": ["ReactJs", "NodeJS", "Express", "MongoDB", "Webpack", "Eslint"],
-    "media": [],
-    "client": "",
-    "type": "Web Application"
-  },
-  {
     "id": 2,
     "title": "Weather Forecast",
     "url": "Fullstack Developer",
@@ -43,7 +31,7 @@
     "description": "Application built to understand basic concepts of React JS. In this application, two github users are compared based on number of followers and number of stars.",
     "role": "Frontend Developer",
     "technologies": ["ReactJS", "React Router", "Babel", "ES6", "Webpack"],
-    "media": ["media/projects/github-battle-1.png", "media/projects/github-battle-2.png"],
+    "media": ["media/projects/github-battle-1.png", "media/projects/github-battle-2.png", "media/projects/github-battle-3.png", "media/projects/github-battle-4.png"],
     "client": "",
     "type": "Web Application"
   },
@@ -57,30 +45,6 @@
     "technologies": ["ReactJS", "jQuery", "HTML5", "CSS3", "Flask", "Webpack", "Jest"],
     "media": ["media/projects/powertofly-1.png", "media/projects/powertofly-2.png", "media/projects/powertofly-3.png", "media/projects/powertofly-4.png", "media/projects/powertofly-5.png",  "media/projects/powertofly-6.png", "media/projects/powertofly-7.png", "media/projects/powertofly-8.png"],
     "client": "PowerToFly",
-    "type": "Web Application"
-  },
-  {
-    "id": 6,
-    "title": "Crossover",
-    "url": "https://www.crossover.com",
-    "sourceCode": "",
-    "description": "Crossover connects companies to the best, high-skill talent around the world, and also helps them manage, pay, and increase the productivity of that talent.",
-    "role": "Frontend Developer",
-    "technologies": ["AngularJS", "HTML5", "CSS3", "GruntJS", "Karma"],
-    "media": [],
-    "client": "Crossover For Work",
-    "type": "Web Application"
-  },
-  {
-    "id": 7,
-    "title": "Crossover Techtrial",
-    "url": "https://techtrial.crossover.com",
-    "sourceCode": "",
-    "description": "Techtrial platform is used by evaluation team to assess the code tests submitted by candidates and provide scores.",
-    "role": "Frontend Developer",
-    "technologies": ["AngularJS", "HTML5", "CSS3", "GruntJS", "Karma", "GoogleCharts", "DragNDrop API"],
-    "media": [],
-    "client": "Crossover For Work",
     "type": "Web Application"
   },
   {
@@ -141,18 +105,6 @@
     "technologies": ["Adobe Flash Builder", "Action Script"],
     "media": ["media/projects/qr-mobile-1.png", "media/projects/qr-mobile-2.png", "media/projects/qr-mobile-3.png", "media/projects/qr-mobile-4.png"],
     "client": "Orasure Inc.",
-    "type": "Enterprise Mobile App"
-  },
-  {
-    "id": 13,
-    "title": "IGH Pro",
-    "url": "",
-    "sourceCode": "",
-    "description": "Application allows user to search jobs and teep track of opportunities, events and interviews scheduled.",
-    "role": "Mobile Application Developer",
-    "technologies": ["Adobe Flash Builder", "ActionScript"],
-    "media": ["media/projects/"],
-    "client": "OneAppCloud",
     "type": "Enterprise Mobile App"
   },
   {
@@ -274,5 +226,53 @@
     "media": ["media/projects/santa-jokes-1.png", "media/projects/santa-jokes-2.png"],
     "client": "",
     "type": "Mobile Application"
+  },
+  {
+    "id": 1,
+    "title": "Budget Manager (In Progress)",
+    "url": "",
+    "sourceCode": "https://github.com/yashikagarg13/budget-manager",
+    "description": "Web solution for maintaining expense enteries and generating monthly/quarterly/yearly reports.",
+    "role": "Fullstack Developer",
+    "technologies": ["ReactJs", "NodeJS", "Express", "MongoDB", "Webpack", "Eslint"],
+    "media": [],
+    "client": "",
+    "type": "Web Application"
+  },
+  {
+    "id": 6,
+    "title": "Crossover",
+    "url": "https://www.crossover.com",
+    "sourceCode": "",
+    "description": "Crossover connects companies to the best, high-skill talent around the world, and also helps them manage, pay, and increase the productivity of that talent.",
+    "role": "Frontend Developer",
+    "technologies": ["AngularJS", "HTML5", "CSS3", "GruntJS", "Karma"],
+    "media": [],
+    "client": "Crossover For Work",
+    "type": "Web Application"
+  },
+  {
+    "id": 7,
+    "title": "Crossover Techtrial",
+    "url": "https://techtrial.crossover.com",
+    "sourceCode": "",
+    "description": "Techtrial platform is used by evaluation team to assess the code tests submitted by candidates and provide scores.",
+    "role": "Frontend Developer",
+    "technologies": ["AngularJS", "HTML5", "CSS3", "GruntJS", "Karma", "GoogleCharts", "DragNDrop API"],
+    "media": [],
+    "client": "Crossover For Work",
+    "type": "Web Application"
+  },
+  {
+    "id": 13,
+    "title": "IGH Pro",
+    "url": "",
+    "sourceCode": "",
+    "description": "Application allows user to search jobs and teep track of opportunities, events and interviews scheduled.",
+    "role": "Mobile Application Developer",
+    "technologies": ["Adobe Flash Builder", "ActionScript"],
+    "media": [],
+    "client": "OneAppCloud",
+    "type": "Enterprise Mobile App"
   }
 ]

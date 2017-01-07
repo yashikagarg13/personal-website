@@ -2,6 +2,7 @@ import R from "ramda";
 import React from "react";
 
 import Carousel from "./common/carousel";
+import FormatHelpers from "../helpers/format";
 import ProjectsData from "../data/projects";
 
 export default class App extends React.Component {
@@ -14,17 +15,17 @@ export default class App extends React.Component {
       limit: this.limit,
     };
 
-    this.onClickShowAll = this.onClickShowAll.bind(this);
-    this.onClickShowLess = this.onClickShowLess.bind(this);
+    this.onClickSeeAll = this.onClickSeeAll.bind(this);
+    this.onClickSeeLess = this.onClickSeeLess.bind(this);
   }
 
-  onClickShowAll () {
+  onClickSeeAll () {
     this.setState({
       limit: R.length(ProjectsData),
     });
   }
 
-  onClickShowLess () {
+  onClickSeeLess () {
     this.setState({
       limit: this.limit,
     });
@@ -39,12 +40,15 @@ export default class App extends React.Component {
           <div className="box">
             {R.map(project =>
               <div key={`project-${project.id}`} className="project">
-                {/*<div className="media-wrapper">
-                  <Carousel
-                    carouselId={`${FormatHelpers.strToCamelCase(project.title)}MediaCarousel`}
-                    data={project.media}
-                  />
-                </div>*/}
+                {!R.isEmpty(project.media) && R.type(project.media) == "Array"
+                  ? <div className="media-wrapper">
+                      <Carousel
+                        carouselId={`${FormatHelpers.strToCamelCase(project.title)}MediaCarousel`}
+                        data={project.media}
+                      />
+                    </div>
+                  : null
+                }
                 <div className="padding-sm clearfix">
                   <div className="clearfix">
                     <div className="pull-left">
@@ -73,8 +77,8 @@ export default class App extends React.Component {
             R.slice(0, this.state.limit, ProjectsData))}
           </div>
           <button className="btn btn-primary show-all-btn"
-            onClick={this.state.limit < R.length(ProjectsData) ? this.onClickShowAll : this.onClickShowLess}>
-            {this.state.limit < R.length(ProjectsData) ? "Show All" : "Show Less"}</button>
+            onClick={this.state.limit < R.length(ProjectsData) ? this.onClickSeeAll : this.onClickSeeLess}>
+            {this.state.limit < R.length(ProjectsData) ? "See All" : "See Less"}</button>
         </div>
       </div>
     );
