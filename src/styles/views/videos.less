@@ -1,0 +1,30 @@
+.videos {
+  border-bottom: 1px solid @gray-lighter;
+  padding: @unit-computed * 2 0;
+
+  .box {
+    color: @black;
+    margin: 0 -(round(@unit-computed / 2)) @unit-computed -(round(@unit-computed / 2));
+    display: flex;
+    flex-wrap: wrap;
+
+    .video {
+      background-color: @white;
+      border: 1px solid @gray-lighter;
+      border-radius: @border-radius-sm;
+      flex: 1;
+      margin: 0 round(@unit-computed / 2) @unit-computed round(@unit-computed / 2);
+      width: 350px;
+      text-align: left;
+
+      .media-wrapper {
+        text-align: center;
+
+        iframe {
+          margin: 0 auto;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

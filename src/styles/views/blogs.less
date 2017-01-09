@@ -1,21 +1,26 @@
 .blogs {
   border-bottom: 1px solid @gray-lighter;
-  padding: @unit-computed * 2 0;
+  padding: @unit-computed * 2 0 @unit-computed 0;
 
-  .box {
-    color: @black;
-    margin: 0 -round(@unit-computed / 2) @unit-computed -round(@unit-computed / 2);
-    display: flex;
-    flex-wrap: wrap;
+  .box-wrapper {
+    margin-left: -(round(@unit-computed / 2));
+    margin-right: -(round(@unit-computed / 2));
 
-    .post {
-      background-color: @white;
-      border: 1px solid @gray-lighter;
-      border-radius: @border-radius-sm;
-      flex: 1;
-      margin: 0 round(@unit-computed / 2) @unit-computed round(@unit-computed / 2);
-      width: 350px;
-      text-align: left;
+    .box {
+      color: @black;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+
+      .post {
+        background-color: @white;
+        border: 1px solid @gray-lighter;
+        border-radius: @border-radius-sm;
+        flex: 1;
+        margin: 0 round(@unit-computed / 2) @unit-computed round(@unit-computed / 2);
+        width: 350px;
+        text-align: left;
+      }
     }
   }
 }

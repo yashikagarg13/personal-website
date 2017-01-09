@@ -28,7 +28,7 @@ export default class Blogs extends React.Component {
       this.setState({blogs, loading: false});
     })
     .catch(error => {
-      console.warn(error);
+      console.log(error);
       this.setState({loading: false});
     });
   }
@@ -38,8 +38,8 @@ export default class Blogs extends React.Component {
       R.forEach(post => {
         let text = R.slice(0, 220, $(`#post-${post.id} .html-text`).text()).toString().replace(/ +/g, " ");
         $(`#post-${post.id} .post-content`).text(text + "...");
-      }, blog.posts)
-    }, this.state.blogs)
+      }, blog.posts);
+    }, this.state.blogs);
   }
 
   render () {
@@ -50,8 +50,8 @@ export default class Blogs extends React.Component {
           <span className="lg uppercase bold text">Blogs</span>
           <div className="margin-top-lg">
             {this.state.loading
-              ? <div></div>
-              : <div>
+              ? <div>Loading..</div>
+              : <div className="box-wrapper">
                 {R.map(blog =>
                   <div key={`blog-${blog.id}`} className="box clearfix">
                     {R.map(post =>

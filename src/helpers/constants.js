@@ -11,4 +11,7 @@ export default {
       title: "Make It Large!!!"
     }
   ],
+  youtubeAPIBaseUrl: "https://www.googleapis.com/youtube/v3/",
+  youtubeEmbedUrl: "http://www.youtube.com/embed/",
+  youtubeWatchUrl: "http://www.youtube.com/watch?v=",
 };

@@ -9,6 +9,7 @@ import Introduction from "./introduction";
 import Interests from "./interests";
 import Projects from "./projects";
 import Skills from "./skills";
+import Videos from "./videos";
 
 export default class App extends React.Component {
   componentDidUpdate() {
@@ -31,6 +32,7 @@ export default class App extends React.Component {
           <Interests />
           <Projects />
           <Blogs />
+          <Videos />
         </div>
       </div>
     );

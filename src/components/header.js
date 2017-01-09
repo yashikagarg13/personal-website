@@ -36,8 +36,8 @@ const Header = () => {
                     aria-haspopup="true" aria-expanded="false">Work <span className="caret"></span></a>
                   <ul className="dropdown-menu md text">
                     <li><Link to="/#projects">Projects</Link></li>
-                    <li><Link to="/#blogs">Blogs</Link></li>
-                    <li><Link to="/#video">Videos</Link></li>
+                    <li><Link to="/#blogs">Blog</Link></li>
+                    <li><Link to="/#videos">Videos</Link></li>
                   </ul>
                 </li>
                 <li><Link to="/#contact">Contact</Link></li>
