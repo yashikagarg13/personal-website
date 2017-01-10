@@ -48,6 +48,18 @@
     "type": "Web Application"
   },
   {
+    "id": 6,
+    "title": "Crossover",
+    "url": "https://www.crossover.com",
+    "sourceCode": "",
+    "description": "Crossover connects companies to the best, high-skill talent around the world, and also helps them manage, pay, and increase the productivity of that talent.",
+    "role": "Frontend Developer",
+    "technologies": ["AngularJS", "HTML5", "CSS3", "GruntJS", "Karma"],
+    "media": ["media/projects/crossover-1.png", "media/projects/crossover-2.png"],
+    "client": "Crossover For Work",
+    "type": "Web Application"
+  },
+  {
     "id": 7,
     "title": "Crossover Techtrial",
     "url": "https://techtrial.crossover.com",
@@ -249,18 +261,6 @@
     "technologies": ["ReactJs", "NodeJS", "Express", "MongoDB", "Webpack", "Eslint"],
     "media": [],
     "client": "",
-    "type": "Web Application"
-  },
-  {
-    "id": 6,
-    "title": "Crossover",
-    "url": "https://www.crossover.com",
-    "sourceCode": "",
-    "description": "Crossover connects companies to the best, high-skill talent around the world, and also helps them manage, pay, and increase the productivity of that talent.",
-    "role": "Frontend Developer",
-    "technologies": ["AngularJS", "HTML5", "CSS3", "GruntJS", "Karma"],
-    "media": [],
-    "client": "Crossover For Work",
     "type": "Web Application"
   },
   {
