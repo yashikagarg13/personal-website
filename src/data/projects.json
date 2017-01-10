@@ -48,6 +48,18 @@
     "type": "Web Application"
   },
   {
+    "id": 7,
+    "title": "Crossover Techtrial",
+    "url": "https://techtrial.crossover.com",
+    "sourceCode": "",
+    "description": "Techtrial platform is used by evaluation team to assess the code tests submitted by candidates and provide scores.",
+    "role": "Frontend Developer",
+    "technologies": ["AngularJS", "HTML5", "CSS3", "GruntJS", "Karma", "GoogleCharts", "DragNDrop API"],
+    "media": ["media/projects/crossover-techtrial-1.png", "media/projects/crossover-techtrial-2.png", "media/projects/crossover-techtrial-3.png", "media/projects/crossover-techtrial-4.png", "media/projects/crossover-techtrial-5.png", "media/projects/crossover-techtrial-6.png", "media/projects/crossover-techtrial-7.png", "media/projects/crossover-techtrial-8.png", "media/projects/crossover-techtrial-9.png", "media/projects/crossover-techtrial-10.png"],
+    "client": "Crossover For Work",
+    "type": "Web Application"
+  },
+  {
     "id": 8,
     "title": "PetEdge",
     "url": "",
@@ -247,18 +259,6 @@
     "description": "Crossover connects companies to the best, high-skill talent around the world, and also helps them manage, pay, and increase the productivity of that talent.",
     "role": "Frontend Developer",
     "technologies": ["AngularJS", "HTML5", "CSS3", "GruntJS", "Karma"],
-    "media": [],
-    "client": "Crossover For Work",
-    "type": "Web Application"
-  },
-  {
-    "id": 7,
-    "title": "Crossover Techtrial",
-    "url": "https://techtrial.crossover.com",
-    "sourceCode": "",
-    "description": "Techtrial platform is used by evaluation team to assess the code tests submitted by candidates and provide scores.",
-    "role": "Frontend Developer",
-    "technologies": ["AngularJS", "HTML5", "CSS3", "GruntJS", "Karma", "GoogleCharts", "DragNDrop API"],
     "media": [],
     "client": "Crossover For Work",
     "type": "Web Application"
