@@ -13,5 +13,23 @@
     p {
       opacity: 0.87;
     }
+
+    .icon-wrapper {
+      background-color: @white;
+      border: 1px solid @gray-lighter;
+      display: inline-block;
+      height: @unit-computed * 2;
+      text-align: center;
+      width: @unit-computed * 2;
+
+      & > i {
+        line-height: (@unit-computed * 2) - 2;
+        margin: 0 auto;
+      }
+
+      &:not(:last-child) {
+        border-right: 0
+      }
+    }
   }
 }

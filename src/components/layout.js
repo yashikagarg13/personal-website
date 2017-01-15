@@ -4,6 +4,7 @@ import Blogs from "./blogs";
 import CoverImage from "./cover-image";
 import Education from "./education";
 import Experience from "./experience";
+import Footer from "./footer";
 import Header from "./header";
 import Introduction from "./introduction";
 import Interests from "./interests";
@@ -33,6 +34,7 @@ export default class App extends React.Component {
           <Projects />
           <Blogs />
           <Videos />
+          <Footer />
         </div>
       </div>
     );
