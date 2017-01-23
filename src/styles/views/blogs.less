@@ -12,13 +12,19 @@
       display: flex;
       flex-wrap: wrap;
 
+      * {
+        min-height: 0;
+        min-width: 0;
+      }
+
       .post {
         background-color: @white;
         border: 1px solid @gray-lighter;
         border-radius: @border-radius-sm;
+        height: 220px;
         flex: 1;
         margin: 0 round(@unit-computed / 2) @unit-computed round(@unit-computed / 2);
-        min-width: 350px;
+        width: 360px !important;
         text-align: left;
       }
     }

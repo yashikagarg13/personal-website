@@ -1,6 +1,7 @@
 import Q from "q";
 import R from "ramda";
 import React from "react";
+import Slider from "react-slick";
 
 import API from "../helpers/api";
 import Constants from "../helpers/constants";
@@ -36,12 +37,24 @@ export default class Blogs extends React.Component {
 
   componentDidUpdate () {
     R.forEach(post => {
-      let text = R.slice(0, 220, $(`#post-${post.id} .html-text`).text()).toString().replace(/ +/g, " ");
+      let text = R.slice(0, 200, $(`#post-${post.id} .html-text`).text()).toString().replace(/ +/g, " ");
       $(`#post-${post.id} .post-content`).text(text + "...");
     }, this.state.posts);
   }
 
   render () {
+    const settings = {
+      adaptiveHeight: false,
+      arrows: false,
+      autoplay: true,
+      dots: true,
+      infinite: false,
+      speed: 500,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      centerMode: false,
+    };
+
     return (
       <div id="blogs" className="blogs">
         <div className="container text-center">
@@ -52,8 +65,9 @@ export default class Blogs extends React.Component {
               ? <div>Loading..</div>
               : <div className="box-wrapper">
                 <div className="box">
+                  <Slider {...settings}>
                       {R.map(post =>
-                        <div id={`post-${post.id}`} key={`post-${post.id}`} className="item post">
+                        <div id={`post-${post.id}`} key={`post-${post.id}`} className="post">
                           <div className="padding-sm clearfix">
                             <a href={post.url} target="_blank" className="md bold text">{post.title}</a>
                             <div className="sm dark-vimp text margin-bottom-sm ">By {post.author.displayName} at
@@ -64,6 +78,7 @@ export default class Blogs extends React.Component {
                           </div>
                         </div>,
                       this.state.posts)}
+                  </Slider>
                 </div>
               </div>
             }
