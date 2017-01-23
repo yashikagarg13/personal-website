@@ -10,7 +10,7 @@ export default class Blogs extends React.Component {
     super(props);
 
     this.state = {
-      blogs: Constants.blogs,
+      posts: [],
       loading: true,
     };
   }
@@ -18,14 +18,15 @@ export default class Blogs extends React.Component {
   componentDidMount () {
     return Q.all(
       R.map(blog => API.getPostsByBlogId(blog.id), Constants.blogs)
-    ).then(dataSet => {
-      let blogs = this.state.blogs;
-      blogs = R.map(blog => {
-        blog.posts = R.prop("items", R.find(data => data.items[0].blog.id == blog.id, dataSet));
-        return blog;
-      }, blogs);
+    ).then(dataSets => {
 
-      this.setState({blogs, loading: false});
+      let posts = R.reduce((posts, dataSet) => R.concat(posts, dataSet.items), [], dataSets);
+      posts = R.map(post => {
+        post.blog.title = R.prop("title", R.find(blog => blog.id == post.blog.id, Constants.blogs));
+        return post;
+      }, posts);
+
+      this.setState({posts, loading: false});
     })
     .catch(error => {
       console.log(error);
@@ -34,12 +35,10 @@ export default class Blogs extends React.Component {
   }
 
   componentDidUpdate () {
-    R.forEach(blog => {
-      R.forEach(post => {
-        let text = R.slice(0, 220, $(`#post-${post.id} .html-text`).text()).toString().replace(/ +/g, " ");
-        $(`#post-${post.id} .post-content`).text(text + "...");
-      }, blog.posts);
-    }, this.state.blogs);
+    R.forEach(post => {
+      let text = R.slice(0, 220, $(`#post-${post.id} .html-text`).text()).toString().replace(/ +/g, " ");
+      $(`#post-${post.id} .post-content`).text(text + "...");
+    }, this.state.posts);
   }
 
   render () {
@@ -52,22 +51,20 @@ export default class Blogs extends React.Component {
             {this.state.loading
               ? <div>Loading..</div>
               : <div className="box-wrapper">
-                {R.map(blog =>
-                  <div key={`blog-${blog.id}`} className="box clearfix">
-                    {R.map(post =>
-                      <div id={`post-${post.id}`} key={`post-${post.id}`} className="post">
-                        <div className="padding-sm clearfix">
-                          <a href={post.url} target="_blank" className="md bold text">{post.title}</a>
-                          <div className="sm dark-vimp text margin-bottom-sm ">By {post.author.displayName} at
-                            <span className="accent text"> {blog.title}</span></div>
-                          <div className="sm dark-imp text margin-bottom-sm post-content"></div>
-                          <div className="hidden html-text"
-                            dangerouslySetInnerHTML={{ __html: post.content}}></div>
-                        </div>
-                      </div>,
-                    blog.posts)}
-                  </div>,
-                this.state.blogs)}
+                <div className="box">
+                      {R.map(post =>
+                        <div id={`post-${post.id}`} key={`post-${post.id}`} className="item post">
+                          <div className="padding-sm clearfix">
+                            <a href={post.url} target="_blank" className="md bold text">{post.title}</a>
+                            <div className="sm dark-vimp text margin-bottom-sm ">By {post.author.displayName} at
+                              <span className="accent text"> {post.blog.title}</span></div>
+                            <div className="sm dark-imp text margin-bottom-sm post-content"></div>
+                            <div className="hidden html-text"
+                              dangerouslySetInnerHTML={{ __html: post.content}}></div>
+                          </div>
+                        </div>,
+                      this.state.posts)}
+                </div>
               </div>
             }
           </div>
