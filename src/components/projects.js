@@ -1,7 +1,7 @@
 import R from "ramda";
 import React from "react";
 
-import Carousel from "./common/carousel";
+import {Carousel} from "./common/carousel";
 import FormatHelpers from "../helpers/format";
 import ProjectsData from "../data/projects";
 
