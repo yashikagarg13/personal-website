@@ -42,10 +42,13 @@ export default class App extends React.Component {
               <div key={`project-${project.id}`} className="project">
                 {!R.isEmpty(project.media) && R.type(project.media) == "Array"
                   ? <div className="media-wrapper">
-                      <Carousel
-                        carouselId={`${FormatHelpers.strToCamelCase(project.title)}MediaCarousel`}
-                        data={project.media}
-                      />
+                      <Carousel carouselId={`${FormatHelpers.strToCamelCase(project.title)}MediaCarousel`}>
+                        {R.map(index =>
+                          <div key={`data-${index}`} className={`item ${index == 0 ? "active" : ""}`}>
+                            <img className="img" src={`/public/${project.media[index]}`} alt=""></img>
+                          </div>,
+                        R.range(0, R.length(project.media)))}
+                      </Carousel>
                     </div>
                   : null
                 }

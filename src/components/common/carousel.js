@@ -13,17 +13,13 @@ export default class Carousel extends React.Component {
     return (
       <div id={this.props.carouselId} className="carousel slide">
         <div className="carousel-inner" role="listbox">
-          {R.map(index =>
-            <div key={`data-${index}`} className={`item ${index == 0 ? "active" : ""}`}>
-              <img className="img" src={`/public/${this.props.data[index]}`} alt=""></img>
-            </div>,
-          R.range(0, R.length(this.props.data)))}
+          {this.props.children}
         </div>
 
         <ol className="carousel-indicators">
           {R.map(index =>
             <li key={`index-${index}`} data-target={`#${this.props.carouselId}`} data-slide-to={index}></li>,
-          R.range(0, R.length(this.props.data)))}
+          R.range(0, R.length(this.props.children)))}
         </ol>
       </div>
     );
@@ -32,5 +28,5 @@ export default class Carousel extends React.Component {
 
 Carousel.propTypes = {
   carouselId: PropTypes.string.isRequired,
-  data: PropTypes.array.isRequired,
+  children: PropTypes.array.isRequired,
 };
