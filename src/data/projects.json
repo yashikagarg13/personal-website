@@ -132,6 +132,18 @@
     "type": "Enterprise Mobile App"
   },
   {
+    "id": 13,
+    "title": "IGH Pro",
+    "url": "",
+    "sourceCode": "",
+    "description": "Application allows user to search jobs and teep track of opportunities, events and interviews scheduled.",
+    "role": "Mobile Application Developer",
+    "technologies": ["Adobe Flash Builder", "ActionScript"],
+    "media": ["media/projects/ighpro-1.png", "media/projects/ighpro-2.png", "media/projects/ighpro-3.png", "media/projects/ighpro-4.png", "media/projects/ighpro-5.png", "media/projects/ighpro-6.png", "media/projects/ighpro-7.png"],
+    "client": "OneAppCloud",
+    "type": "Enterprise Mobile App"
+  },
+  {
     "id": 14,
     "title": "HR Performance",
     "url": "",
@@ -262,17 +274,5 @@
     "media": [],
     "client": "",
     "type": "Web Application"
-  },
-  {
-    "id": 13,
-    "title": "IGH Pro",
-    "url": "",
-    "sourceCode": "",
-    "description": "Application allows user to search jobs and teep track of opportunities, events and interviews scheduled.",
-    "role": "Mobile Application Developer",
-    "technologies": ["Adobe Flash Builder", "ActionScript"],
-    "media": [],
-    "client": "OneAppCloud",
-    "type": "Enterprise Mobile App"
   }
 ]
