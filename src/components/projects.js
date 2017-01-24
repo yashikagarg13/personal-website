@@ -5,7 +5,7 @@ import Carousel from "./common/carousel";
 import FormatHelpers from "../helpers/format";
 import ProjectsData from "../data/projects";
 
-export default class App extends React.Component {
+export default class Projects extends React.Component {
   constructor (props) {
     super(props);
 

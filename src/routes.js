@@ -1,5 +1,5 @@
 import React from "react";
-import {Router, Route, IndexRedirect, browserHistory} from "react-router";
+import {Router, Route, browserHistory} from "react-router";
 
 import Layout from "./components/layout";
 const history = browserHistory;

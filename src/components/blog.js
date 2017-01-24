@@ -6,7 +6,7 @@ import Slider from "react-slick";
 import API from "../helpers/api";
 import Constants from "../helpers/constants";
 
-export default class Blogs extends React.Component {
+export default class Blog extends React.Component {
   constructor (props) {
     super(props);
 
@@ -56,10 +56,10 @@ export default class Blogs extends React.Component {
     };
 
     return (
-      <div id="blogs" className="blogs">
+      <div id="blog" className="blog">
         <div className="container text-center">
           <i className="fa fa-rss-square margin-right-xs lg primary text" aria-hidden="true"></i>
-          <span className="lg uppercase bold text">Blogs</span>
+          <span className="lg uppercase bold text">Blog</span>
           <div className="margin-top-lg">
             {this.state.loading
               ? <div>Loading..</div>
