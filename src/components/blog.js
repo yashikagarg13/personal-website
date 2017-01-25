@@ -29,8 +29,7 @@ export default class Blog extends React.Component {
 
       this.setState({posts, loading: false});
     })
-    .catch(error => {
-      console.log(error);
+    .catch(() => {
       this.setState({loading: false});
     });
   }

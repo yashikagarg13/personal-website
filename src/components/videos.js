@@ -21,8 +21,8 @@ export default class Videos extends React.Component {
       let videos = R.slice(0, R.length(data.items) - 1, data.items);
       this.setState({videos, loading: false});
     })
-    .catch(error => {
-      console.log(error);
+    .catch(() => {
+      // console.log(error);
       this.setState({loading: false});
     });
   }
