@@ -15,7 +15,8 @@
   "scripts": {
     "start": "cross-env NODE_ENV=production nodemon --exec babel-node --presets=react,es2015 -- src/server.js",
     "watch": "cross-env NODE_ENV=development webpack --watch",
-    "build": "cross-env NODE_ENV=production webpack"
+    "build": "cross-env NODE_ENV=production webpack",
+    "postinstall": "cross-env NODE_ENV=production webpack"
   },
   "dependencies": {
     "autoprefixer-loader": "^3.2.0",
