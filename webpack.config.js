@@ -46,6 +46,7 @@ const config = {
       {from: SRC_DIR + "/data/media", to:  "media"},
       {from: SRC_DIR + "/data/images", to:  "images"},
       {from: NODE_MODULES + "/jquery/dist/", to:  "js/scripts"},
+      {from: SRC_DIR + "/ga.js", to:  "js/scripts"},
     ]),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify("production")
