@@ -1,7 +1,6 @@
 import Q from "q";
 import R from "ramda";
 import React from "react";
-import Slider from "react-slick";
 
 import API from "../helpers/api";
 import Constants from "../helpers/constants";
@@ -10,10 +9,28 @@ export default class Blog extends React.Component {
   constructor (props) {
     super(props);
 
+    this.limit = 9;
+
     this.state = {
       posts: [],
       loading: true,
+      limit: this.limit,
     };
+
+    this.onClickSeeAll = this.onClickSeeAll.bind(this);
+    this.onClickSeeLess = this.onClickSeeLess.bind(this);
+  }
+
+  onClickSeeAll () {
+    this.setState({
+      limit: R.length(this.state.posts),
+    });
+  }
+
+  onClickSeeLess () {
+    this.setState({
+      limit: this.limit,
+    });
   }
 
   componentDidMount () {
@@ -42,17 +59,6 @@ export default class Blog extends React.Component {
   }
 
   render () {
-    const settings = {
-      adaptiveHeight: false,
-      arrows: false,
-      autoplay: true,
-      dots: true,
-      infinite: false,
-      speed: 500,
-      slidesToShow: 3,
-      slidesToScroll: 3,
-      centerMode: false,
-    };
 
     return (
       <div id="blog" className="blog">
@@ -64,24 +70,27 @@ export default class Blog extends React.Component {
               ? <div>Loading..</div>
               : <div className="box-wrapper">
                 <div className="box">
-                  <Slider {...settings}>
-                      {R.map(post =>
-                        <div id={`post-${post.id}`} key={`post-${post.id}`} className="post">
-                          <div className="padding-sm clearfix">
-                            <a href={post.url} target="_blank" className="md bold text">{post.title}</a>
-                            <div className="sm dark-vimp text margin-bottom-sm ">By {post.author.displayName} at
-                              <span className="accent text"> {post.blog.title}</span></div>
-                            <div className="sm dark-imp text margin-bottom-sm post-content"></div>
-                            <div className="hidden html-text"
-                              dangerouslySetInnerHTML={{ __html: post.content}}></div>
-                          </div>
-                        </div>,
-                      this.state.posts)}
-                  </Slider>
+                  {R.map(post =>
+                    <div id={`post-${post.id}`} key={`post-${post.id}`} className="post">
+                      <div className="padding-sm clearfix">
+                        <a href={post.url} target="_blank" className="md bold text">{post.title}</a>
+                        <div className="sm dark-vimp text margin-bottom-sm ">By {post.author.displayName} at
+                          <span className="accent text"> {post.blog.title}</span></div>
+                        <div className="sm dark-imp text margin-bottom-sm post-content"></div>
+                        <div className="hidden html-text"
+                          dangerouslySetInnerHTML={{ __html: post.content}}></div>
+                      </div>
+                    </div>,
+                  this.state.posts)}
                 </div>
               </div>
             }
           </div>
+          {R.length(this.state.posts) > this.limit
+            ? <button className="btn btn-primary show-all-btn"
+              onClick={this.state.limit < R.length(this.state.posts) ? this.onClickSeeAll : this.onClickSeeLess}>
+              {this.state.limit < R.length(this.state.posts) ? "See All" : "See Less"}</button>
+            : null}
         </div>
       </div>
     );
