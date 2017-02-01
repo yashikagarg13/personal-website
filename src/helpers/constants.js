@@ -1,4 +1,5 @@
 export default {
+  position: "Fullstack Developer",
   googleAPIKey: "AIzaSyBGNYcKU9JJ_iES3UcSpajUUupmRO4i0H4",
   blogAPIBaseUrl: "https://www.googleapis.com/blogger/v3/",
   blogs: [
