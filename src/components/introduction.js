@@ -22,8 +22,10 @@ const Introduction = () => {
           using cutting edge technologies, like, SAP Fiori and SAPUI5, SUP, Adobe flash builder, Cordova
           and worked with some elite clients like <b>Smithfield, Honeywell, Hollister, Orasure, JMC Steel</b> and so on.</p>
 
-          <p>I have great inclination towards problem solving, algorithms and architecture and am constantly working on honing my skills in the same domain.
-            For any comments or propositions, you can reach me through following means </p>
+          <p>I have great inclination towards problem solving, algorithms and architecture and am constantly working on
+            honing my skills in the same domain. I enjoy learning new technologies in terms of what problem they are solving
+            and I have no technology constraints while writing code. I enjoy learning new things and walking in unknown land.
+            For any comments or propositions, you can reach me through following means: </p>
 
           <div className="text-center margin-top">
             <FindMeAt />
