@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container">
         <div className="pull-left text-left">
           <div className="lg underlined text">Yashika Garg</div>
-          <div className="sm dark-vimp text">Frontend/Mobile/FullStack Developer</div>
+          <div className="sm dark-vimp text">Fullstack Developer</div>
           <div className="sm dark-imp text">Created by Yashika Garg</div>
           <div className="xs dark-nimp text margin-top-sm">Copyright <i className="fa fa-copyright"></i> Yashika Garg 2017</div>
         </div>
