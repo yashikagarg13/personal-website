@@ -14,6 +14,13 @@ body, html {
   padding: 0 @unit-computed / 2;
 }
 
+a {
+  color: @accent;
+  &:hover, &:visited, &:focus, &:active {
+    color: @accent;
+  }
+}
+
 .text {
   // Sizes
   &.xxlg {
