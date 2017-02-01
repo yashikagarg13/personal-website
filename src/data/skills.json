@@ -1,10 +1,10 @@
 {
-  "Expertise": ["Problem Solving", "Algorithms", "MVC architecture",  "OOPs", "Functional Programming"],
+  "Domain": ["Problem Solving", "Algorithms", "Architecture",  "OOPs", "Functional Programming"],
   "Languages": ["JavaScript", "ES6", "HTML", "CSS", "LESS", "PHP", "Java"],
   "Frontend": ["ReactJS", "AngularJS", "jQuery", "Bootstrap", "Webpack", "GruntJS", "Responsive Design"],
   "Unit Testing": ["Karma", "Jest", "Mocha"],
   "Backend": ["REST APIs", "NodeJs", "ExpressJs"],
-  "Mobile": ["Apache Cordova", "Adobe flash builder", "Titanium Appcelerator"],
+  "Mobile": ["Apache Cordova", "Adobe Flash Builder", "Titanium Appcelerator"],
   "Enterprise Mobile": ["SAP Fiori", "SAPUI5", "Sybase Unwired Platform", "Mobile Business Objects"],
   "Others": ["Team Player", "Productive", "Communications", "Confident"]
 }
