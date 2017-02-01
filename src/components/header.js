@@ -20,17 +20,11 @@ const Header = () => {
 
             <div className="collapse navbar-collapse" id="items">
               <ul className="nav navbar-nav navbar-right">
-                <li>
-                  <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button"
-                    aria-haspopup="true" aria-expanded="false">About <span className="caret"></span></a>
-                  <ul className="dropdown-menu md text">
-                    <li><Link to="/#introduction">Introduction</Link></li>
-                    <li><Link to="/#skills">Skills</Link></li>
-                    <li><Link to="/#education">Education</Link></li>
-                    <li><Link to="/#experience">Experience</Link></li>
-                    <li><Link to="/#interests">Interests</Link></li>
-                  </ul>
-                </li>
+                <li><Link to="/#introduction">About</Link></li>
+                <li><Link to="/#skills">Skills</Link></li>
+                <li><Link to="/#education">Education</Link></li>
+                <li><Link to="/#experience">Experience</Link></li>
+                <li><Link to="/#interests">Interests</Link></li>
                 <li>
                   <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button"
                     aria-haspopup="true" aria-expanded="false">Work <span className="caret"></span></a>
