@@ -10,7 +10,7 @@ const Introduction = () => {
         <span className="lg uppercase bold text">Introduction</span>
         <div className="box">
           <p>I'm Yashika Garg, currently residing in Ahmedabad, India but native of Delhi, India.
-          I am a frontend developer, dancer, problem solver, homemaker and a person full of life and joy.
+          I am a coder, dancer, problem solver, homemaker and a person full of life and joy.
           I am married to a wonderful person Ketan Gupta, who is currently working as Deputy Manager in State Bank of Patiala.</p>
 
           <p>I am working with <a href="http://www.powertofly.com" target="_blank"> PowerToFly</a>,
