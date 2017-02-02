@@ -45,7 +45,7 @@ export default class Projects extends React.Component {
                       <Carousel carouselId={`${FormatHelpers.strToCamelCase(project.title)}MediaCarousel`}>
                         {R.map(index =>
                           <div key={`data-${index}`} className={`item ${index == 0 ? "active" : ""}`}>
-                            <img className="img" src={`/public/${project.media[index]}`} alt=""></img>
+                            <img className="img" src={`/${project.media[index]}`} alt=""></img>
                           </div>,
                         R.range(0, R.length(project.media)))}
                       </Carousel>

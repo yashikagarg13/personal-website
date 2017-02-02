@@ -24,7 +24,7 @@ const routes = Routes.getRoutes();
 
 const port = process.env.PORT || 8080;
 
-app.use('/public', express.static('public'));
+app.use('/', express.static('public'));
 
 app.use('/', (req, res) => {
   match({routes: routes, location: req.url }, (error, redirectLocation, renderProps) => {
