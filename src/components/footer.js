@@ -5,6 +5,7 @@ import FindMeAt from "./common/find-me-at";
 
 
 const Footer = () => {
+  const currentDate = new Date();
   return (
     <div id="footer" className="footer">
       <div className="container">
@@ -12,7 +13,7 @@ const Footer = () => {
           <div className="lg underlined text">Yashika Garg</div>
           <div className="sm dark-vimp text">{Constants.position}</div>
           <div className="sm dark-imp text">Created by Yashika Garg</div>
-          <div className="xs dark-nimp text margin-top-sm">Copyright <i className="fa fa-copyright"></i> Yashika Garg 2017</div>
+          <div className="xs dark-nimp text margin-top-sm">Copyright <i className="fa fa-copyright"></i> Yashika Garg {currentDate.getFullYear()}</div>
         </div>
 
         <div className="pull-right text-left">
