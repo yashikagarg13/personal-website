@@ -23,6 +23,7 @@ const Routes = require('./routes');
 const routes = Routes.getRoutes();
 
 const port = process.env.PORT || 8080;
+const oneYear = 31557600000;
 
 app.use('/', express.static('public'));
 
@@ -33,6 +34,7 @@ app.use('/', (req, res) => {
     } else if (redirectLocation) {
       res.redirect(302, redirectLocation.pathname + redirectLocation.search)
     } else if (renderProps) {
+      res.setHeader('Cache-Control', 'public, max-age=' + (oneYear / 1000));
       const body = ReactDOMServer.renderToString(
         React.createElement(RouterContext, renderProps)
       )
