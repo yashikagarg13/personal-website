@@ -42,7 +42,7 @@ const config = {
     ]
   },
   plugins: [
-    new CleanWebpackPlugin(['public'], {
+    new CleanWebpackPlugin(['public/js'], {
       root: Path.join(__dirname, "/"),
       verbose: true,
       dry: false
