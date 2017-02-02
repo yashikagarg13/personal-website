@@ -1,6 +1,7 @@
 require('babel-register');
 
 const express = require('express');
+const compression = require('compression');
 
 const React = require('react');
 const ReactDOMServer = require('react-dom/server');
@@ -11,6 +12,7 @@ const _ = require('lodash');
 const fs = require('fs');
 
 const app = express();
+app.use(compression({threshold: 0}));
 
 /***************************************************************************************************************
     UNIVERSAL RENDERING
