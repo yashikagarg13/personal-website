@@ -22,9 +22,9 @@ const Header = () => {
               <ul className="nav navbar-nav navbar-right">
                 <li><Link to="/#about">About</Link></li>
                 <li><Link to="/#skills">Skills</Link></li>
+                <li><Link to="/#interests">Interests</Link></li>
                 <li><Link to="/#experience">Experience</Link></li>
                 <li><Link to="/#education">Education</Link></li>
-                <li><Link to="/#interests">Interests</Link></li>
                 <li>
                   <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button"
                     aria-haspopup="true" aria-expanded="false">Work <span className="caret"></span></a>

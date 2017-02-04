@@ -28,9 +28,9 @@ export default class App extends React.Component {
           <CoverImage />
           <About />
           <Skills />
+          <Interests />
           <Experience />
           <Education />
-          <Interests />
           <Projects />
           <Blog />
           <Videos />
