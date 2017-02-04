@@ -4,10 +4,10 @@ import FindMeAt from "./common/find-me-at";
 
 const Introduction = () => {
   return (
-    <div id="introduction" className="introduction">
+    <div id="about" className="about">
       <div className="container text-center">
         <i className="fa fa-user margin-right-xs lg primary text" aria-hidden="true"></i>
-        <span className="lg uppercase bold text">Introduction</span>
+        <span className="lg uppercase bold text">About</span>
         <div className="box">
           <p>I'm Yashika Garg, currently residing in Ahmedabad, India but native of Delhi, India.
           I am a coder, dancer, problem solver, homemaker and a person full of life and joy.
@@ -30,6 +30,8 @@ const Introduction = () => {
           <div className="text-center margin-top">
             <FindMeAt />
           </div>
+
+
         </div>
       </div>
     </div>

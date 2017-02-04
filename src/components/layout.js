@@ -6,7 +6,7 @@ import Education from "./education";
 import Experience from "./experience";
 import Footer from "./footer";
 import Header from "./header";
-import Introduction from "./introduction";
+import About from "./about";
 import Interests from "./interests";
 import Projects from "./projects";
 import Skills from "./skills";
@@ -26,7 +26,7 @@ export default class App extends React.Component {
         <Header />
         <div className="body">
           <CoverImage />
-          <Introduction />
+          <About />
           <Skills />
           <Experience />
           <Education />
