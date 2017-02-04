@@ -8,16 +8,6 @@ const Education = () => {
         <span className="lg uppercase bold text">Education</span>
         <div className="box">
           <div className="education-block">
-            <div className="title">CBSE Board (PCM)</div>
-            <div className="sub-title">Modern Public School, Delhi | 2006 - 2007</div>
-            <div className="description">
-              Studied physics, chemistry, mathematics, computer science and english according to
-              <a href="http://www.cbse.nic.in/curric~1/sylabus_07.htm" target="_blank"> CBSE Board curriculum</a>.
-              Secured <b>90%</b> in PCM and <b>97%</b> in computer science. Awarded gold medal for achieving 1st position
-              in computer science. Learned C and C++ programming languages
-            </div>
-          </div>
-          <div className="education-block nomargin-right">
             <div className="title">Bachelor of Engineering (CSE)</div>
             <div className="sub-title">Maharishi Dayanand University, Rohtak | 2007 - 2011</div>
             <div className="description">
@@ -30,6 +20,16 @@ const Education = () => {
               anchoring, volunteering, inter-college fests and received many prizes.
               Learned Java, C# and PHP programming languages and J2EE and ASP.net frameworks.
               Worked on an online video streaming project using PHP and Joomla in last semester as degree project.
+            </div>
+          </div>
+          <div className="education-block nomargin-right">
+            <div className="title">CBSE Board (PCM)</div>
+            <div className="sub-title">Modern Public School, Delhi | 2006 - 2007</div>
+            <div className="description">
+              Studied physics, chemistry, mathematics, computer science and english according to
+              <a href="http://www.cbse.nic.in/curric~1/sylabus_07.htm" target="_blank"> CBSE Board curriculum</a>.
+              Secured <b>90%</b> in PCM and <b>97%</b> in computer science. Awarded gold medal for achieving 1st position
+              in computer science. Learned C and C++ programming languages
             </div>
           </div>
         </div>
