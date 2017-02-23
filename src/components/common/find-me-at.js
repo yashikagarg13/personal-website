@@ -15,9 +15,6 @@ export default class FindMeAt extends React.Component {
         <a href={`mailto:${ContactData.email}`} className="icon-wrapper"
           data-toggle="tooltip" title={ContactData.email} data-placement="bottom">
           <i className="fa fa-envelope accent lg text margin-right"></i></a>
-        <a href={`callto:${ContactData.phone}`} className="icon-wrapper"
-          data-toggle="tooltip" title={ContactData.phone} data-placement="bottom">
-          <i className="fa fa-mobile accent lg text margin-right"></i></a>
         <a href={`skype:${ContactData.skype}`} className="icon-wrapper"
           data-toggle="tooltip" title={ContactData.skype} data-placement="bottom">
           <i className="fa fa-skype accent lg text margin-right"></i></a>

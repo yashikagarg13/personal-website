@@ -9,7 +9,6 @@ import Header from "./header";
 import About from "./about";
 import Interests from "./interests";
 import Projects from "./projects";
-import Skills from "./skills";
 import Videos from "./videos";
 
 export default class App extends React.Component {
@@ -27,13 +26,12 @@ export default class App extends React.Component {
         <div className="body">
           <CoverImage />
           <About />
-          <Skills />
-          <Interests />
-          <Experience />
-          <Education />
           <Projects />
           <Blog />
           <Videos />
+          <Experience />
+          <Education />
+          <Interests />
           <Footer />
         </div>
       </div>
