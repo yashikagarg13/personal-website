@@ -4,7 +4,7 @@
     "companyUrl": "https://powertofly.com",
     "position": "Frontend Developer",
     "timePeriod": "August 2015 - Present",
-    "role": "<b>Responsibilities:</b> <br />* Develop modules for enhancing talent experience <br />* Improve architecture and performance of application <br />* Participate in techincal discussions and bring solutions <br />* Researching, integrating and maintaining libraries <br />* Provide trainings to team members <br />* Reviewing code <br />* Maintaining documentation <br />* Coordinating with Backend, Design and QA teams",
+    "role": "<b>Responsibilities:</b> <br />* Develop modules for enhancing talent experience <br />* Improve architecture and performance of application <br />* Participate in technical discussions and bring solutions <br />* Researching, integrating and maintaining libraries <br />* Provide trainings to team members <br />* Reviewing code <br />* Maintaining documentation <br />* Coordinating with Backend, Design and QA teams",
     "technologies": ["ReactJS", "HTML5", "CSS3", "ES6", "jQuery", "Jinja", "Flask", "D3Js", "Jest", "Bootstrap", "Webpack", "Git"]
   },
   {
@@ -28,7 +28,7 @@
     "companyUrl": "https://www.tpcus.com",
     "position": "Software Engineer",
     "timePeriod": "June 2011 - May 2013",
-    "role": "<b>Responsibilities:</b> <br />* Developing web solutions for clients and internal team <br />* Developing enterprise applications for clients <br />* Developing hybrid mobile applicationsunder internal projects <br />* Monitoring team member's progress and participation <br />* Distributing tasks among team members <br />* Coordinating with clients and offshore teams",
+    "role": "<b>Responsibilities:</b> <br />* Developing web solutions for clients and internal team <br />* Developing enterprise applications for clients <br />* Developing hybrid mobile applications under internal projects <br />* Monitoring team member's progress and participation <br />* Distributing tasks among team members <br />* Coordinating with clients and offshore teams",
     "technologies": ["Appcelerator Titanium", "Adobe Flash Builder", "Sybase Unwired Platform", "MOB", "HTML5", "CSS", "JavaScript", "Apache Cordova", "MS SQL Server", "Quickbase", "MySQL", "Webservice - REST/SOAP", "SSRS"]
   }
 ]

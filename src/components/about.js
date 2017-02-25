@@ -14,11 +14,11 @@ const Introduction = () => {
           I am a developer, dancer, problem solver, homemaker and a person full of life and joy.</p>
 
           <p>With an experience of 5+ years in developing and architecting the solutions for growing business needs, I am
-          focused on implementing advanced technologies that enable me in building multitude of powerful apps in
-          a quicker and efficient way. I have great inclination towards solving problems using algorithms and study
+          focused on implementing advanced technologies that enable me in building a multitude of powerful apps in
+          a quicker and efficient way. I have a great inclination towards solving problems using algorithms and studying
           different project architectures and am constantly working on honing my skills in the same domain. You can
           see the gist of my practise <a className="bold text" href="https://gist.github.com/yashikagarg13" target="_blank">here</a>.
-          I enjoy walking in unknown land of code, aiming to become language independent.</p>
+          I enjoy walking in an unknown land of code, aiming to become language independent.</p>
 
           <p>I am working with <a href="http://www.powertofly.com" target="_blank"> PowerToFly</a>,
           where I am responsible for developing frontend that enhances talents' experience at our website and
@@ -29,7 +29,8 @@ const Introduction = () => {
           using cutting edge technologies, like, SAP Fiori and SAPUI5, SUP, Adobe flash builder, Cordova
           and worked with some elite clients like <b>Smithfield, Honeywell, Hollister, Orasure, JMC Steel</b> and so on.</p>
 
-          <p>For any comments or propositions, you can reach me through following means: </p>
+          <p>I am looking for challenges projects that can provide me opportunity to move out of my comfort zone and to
+          create something extraordinary. For any comments or propositions, you can reach me through following means: </p>
 
           <div className="text-center margin-top">
             <FindMeAt />
