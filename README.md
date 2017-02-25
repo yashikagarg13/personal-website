@@ -3,14 +3,15 @@ This is a portfolio website created using ReactJS stack. It showcases my open so
 ###Install
 
 ```
-sudo npm run build //To build front-end files
-sudo npm run start //To start the server
+npm install     // To install all dependencies
+npm run build   // To build front-end files
+npm run start   // To start the server
 ```
 
 For development, we can watch on front-end files using script:
 
 ```
-sudo npm run watch
+npm run watch
 ```
 
 ###Technology Stack.
