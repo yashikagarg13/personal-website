@@ -14,14 +14,51 @@
       border: 1px solid @gray-lighter;
       border-radius: @border-radius-sm;
       flex: 1;
+      height: 310px;
       margin: 0 round(@unit-computed / 2) @unit-computed round(@unit-computed / 2);
-      min-width: 300px;
+      min-width: 320px;
       text-align: left;
+      position: relative;
+      overflow: hidden;
+
+      &:hover {
+        .more-details {
+          max-height: 250px;
+        }
+      }
 
       .media-wrapper {
-        border-bottom: 1px solid @gray-lighter;
-        margin-bottom: round(@unit-computed / 5);
+        background-color: @gray-lighter;
         border-radius: @border-radius-sm;
+        position: absolute;
+        top: 0; bottom: 0;
+        left: 0; right: 0;
+
+        > .img {
+          height: auto;
+          width: 100%;
+          margin: 0 auto;
+        }
+      }
+
+      .overlap {
+        background: @black;
+        bottom: 0;
+        color: @white;
+        display: block;
+        opacity: 0.8;
+        position: absolute;
+        width: 100%;
+      }
+
+      .more-details {
+        max-height: 0;
+        overflow: hidden;
+        -webkit-transition: max-height 0.8s;
+        -moz-transition: max-height 0.8s;
+        -ms-transition: max-height 0.8s;
+        -o-transition: max-height 0.8s;
+        transition: max-height 0.8s;
       }
 
       .list {

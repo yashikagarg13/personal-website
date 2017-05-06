@@ -13,10 +13,16 @@ export default class Projects extends React.Component {
 
     this.state = {
       limit: this.limit,
+      showDetails: R.reduce((acc, project) => {
+        acc[project.id] = false;
+        return acc;
+      }, {}, ProjectsData),
     };
 
-    this.onClickSeeAll = this.onClickSeeAll.bind(this);
     this.onClickSeeLess = this.onClickSeeLess.bind(this);
+    this.onClickSeeAll = this.onClickSeeAll.bind(this);
+    this.onMouseOver = this.onMouseOver.bind(this);
+    this.onMouseOut = this.onMouseOut.bind(this);
   }
 
   onClickSeeAll () {
@@ -31,7 +37,21 @@ export default class Projects extends React.Component {
     });
   }
 
+  onMouseOver (projectId) {
+    let {showDetails} = this.state;
+    showDetails[projectId] = true;
+    this.setState({showDetails});
+  }
+
+  onMouseOut (projectId) {
+    let {showDetails} = this.state;
+    showDetails[projectId] = false;
+    this.setState({showDetails});
+  }
+
   render () {
+    const {showDetails} = this.state;
+
     return (
       <div id="projects" className="projects">
         <div className="container text-center">
@@ -40,19 +60,13 @@ export default class Projects extends React.Component {
           <div className="box">
             {R.map(project =>
               <div key={`project-${project.id}`} className="project">
-                {!R.isEmpty(project.media) && R.type(project.media) == "Array"
+                {!R.isEmpty(project.cover) && R.type(project.cover) == "String"
                   ? <div className="media-wrapper">
-                      <Carousel carouselId={`${FormatHelpers.strToCamelCase(project.title)}MediaCarousel`}>
-                        {R.map(index =>
-                          <div key={`data-${index}`} className={`item ${index == 0 ? "active" : ""}`}>
-                            <img className="img" src={`/${project.media[index]}`} alt=""></img>
-                          </div>,
-                        R.range(0, R.length(project.media)))}
-                      </Carousel>
+                      <img className="img" src={`/${project.cover}`} alt=""></img>
                     </div>
                   : null
                 }
-                <div className="padding-sm clearfix">
+                <div className={`padding-sm clearfix overlap`}>
                   <div className="clearfix">
                     <div className="pull-left">
                       {!R.isEmpty(project.url) && R.type(project.url) == "String"
@@ -68,13 +82,15 @@ export default class Projects extends React.Component {
                   {!R.isEmpty(project.client) && R.type(project.client) == "String"
                     ? <div className="sm text">{project.client}</div>
                     : null}
-                  <div className="xs dark-imp text margin-bottom-sm ">{project.type} <b>|</b> {project.role}</div>
-                  <div className="xs dark-vimp text margin-bottom-sm">{project.description}</div>
-                  <ul className="list">
-                    {R.map(technology =>
-                      <li key={`technology-${technology}`} className="list-item">{technology}</li>,
-                    project.technologies)}
-                  </ul>
+                  <div className="xs dark-vimp text ">{project.type} <b>|</b> {project.role}</div>
+                  <div className="more-details">
+                    <div className="xs dark-vimp text margin-top-sm">{project.description}</div>
+                    <ul className="list">
+                      {R.map(technology =>
+                        <li key={`technology-${technology}`} className="list-item">{technology}</li>,
+                      project.technologies)}
+                    </ul>
+                  </div>
                 </div>
               </div>,
             R.slice(0, this.state.limit, ProjectsData))}

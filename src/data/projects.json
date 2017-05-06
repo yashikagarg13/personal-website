@@ -1,41 +1,5 @@
 [
   {
-    "id": 2,
-    "title": "Weather Forecast",
-    "url": "Fullstack Developer",
-    "sourceCode": "https://github.com/yashikagarg13/WeatherForecast",
-    "description": "The application built to understand and implement ReactJS fundamentals like Stateless functional components, react-router, webpack config and universal rendering.",
-    "role": "Frontend Developer",
-    "technologies": ["ReactJs", "React Router", "Webpack"],
-    "media": ["media/projects/weather-forecast-1.png", "media/projects/weather-forecast-2.png", "media/projects/weather-forecast-3.png"],
-    "client": "",
-    "type": "Web Application"
-  },
-  {
-    "id": 3,
-    "title": "Typography Challenges",
-    "url": "Frontend Developer",
-    "sourceCode": "https://github.com/yashikagarg13/typography-basics",
-    "description": "The application describes different challenges faced while attaining good typography and explain their solutions.",
-    "role": "Frontend Developer",
-    "technologies": ["LESS", "Responsive Design", "Typographic Basics"],
-    "media": ["media/projects/typography.png"],
-    "client": "",
-    "type": "Web Application"
-  },
-  {
-    "id": 4,
-    "title": "Github Battle",
-    "url": "",
-    "sourceCode": "https://github.com/yashikagarg13/react-practise",
-    "description": "The application built to understand basic concepts of React JS. In this application, two GitHub users are compared based on the number of followers and number of stars.",
-    "role": "Frontend Developer",
-    "technologies": ["ReactJS", "React Router", "Babel", "ES6", "Webpack"],
-    "media": ["media/projects/github-battle-1.png", "media/projects/github-battle-2.png", "media/projects/github-battle-3.png", "media/projects/github-battle-4.png"],
-    "client": "",
-    "type": "Web Application"
-  },
-  {
     "id": 5,
     "title": "PowerToFly",
     "url": "https://www.powertofly.com",
@@ -43,6 +7,7 @@
     "description": "Hiring platform that matches talented women in tech with companies that value diversity in their teams.",
     "role": "Frontend Developer",
     "technologies": ["ReactJS", "jQuery", "HTML5", "CSS3", "Flask", "Webpack", "Jest"],
+    "cover": "media/cover/powertofly.png",
     "media": ["media/projects/powertofly-1.png", "media/projects/powertofly-2.png", "media/projects/powertofly-3.png", "media/projects/powertofly-4.png", "media/projects/powertofly-5.png",  "media/projects/powertofly-6.png", "media/projects/powertofly-7.png", "media/projects/powertofly-8.png"],
     "client": "PowerToFly",
     "type": "Web Application"
@@ -55,6 +20,7 @@
     "description": "Crossover connects companies to the best, high-skill talent around the world, and also helps them manage, pay, and increase the productivity of that talent.",
     "role": "Frontend Developer",
     "technologies": ["AngularJS", "HTML5", "CSS3", "GruntJS", "Karma"],
+    "cover": "media/cover/crossover.png",
     "media": ["media/projects/crossover-1.png", "media/projects/crossover-2.png"],
     "client": "Crossover For Work",
     "type": "Web Application"
@@ -67,6 +33,7 @@
     "description": "Techtrial platform is used by evaluation team to assess the code tests submitted by candidates and provide scores.",
     "role": "Frontend Developer",
     "technologies": ["AngularJS", "HTML5", "CSS3", "GruntJS", "Karma", "GoogleCharts", "DragNDrop API"],
+    "cover": "media/cover/crossover-techtrial.png",
     "media": ["media/projects/crossover-techtrial-1.png", "media/projects/crossover-techtrial-2.png", "media/projects/crossover-techtrial-3.png", "media/projects/crossover-techtrial-4.png", "media/projects/crossover-techtrial-5.png", "media/projects/crossover-techtrial-6.png", "media/projects/crossover-techtrial-7.png", "media/projects/crossover-techtrial-8.png", "media/projects/crossover-techtrial-9.png", "media/projects/crossover-techtrial-10.png"],
     "client": "Crossover For Work",
     "type": "Web Application"
@@ -79,6 +46,7 @@
     "description": "eCAR is an application that helps the client to create a 'Capital Appropriation Request' that includes all the details about the CAR. A particular CAR, once submitted to the flow goes through different steps for review, where reviewers can approve/decline/resubmit the CAR.",
     "role": "Architect, Fullstack Developer",
     "technologies": ["PHP", "MS SQL Server", "HTML", "CSS", "Javascript", "SSRS"],
+    "cover": "media/cover/smithfield-web-app.png",
     "media": ["media/projects/smithfield-web-app-1.png"],
     "client": "Smithfield Foods Inc.",
     "type": "Web Application"
@@ -91,6 +59,7 @@
     "description": "The application allows the managers to view the CARs waiting for their review in the queue. Each CAR itself drills down to detailed information, the list of attached documents, all reviewers in the process and an interface where the manager can approve/reject the request or leave a comment.",
     "role": "Mobile Application Developer",
     "technologies": ["Sybase Unwired Platform", "HTML", "CSS", "Mobile Business Objects", "SOAP Web-services"],
+    "cover": "media/cover/smithfield-mobile-app.png",
     "media": ["media/projects/smithfield-mobile-app-1.png", "media/projects/smithfield-mobile-app-2.png", "media/projects/smithfield-mobile-app-3.png", "media/projects/smithfield-mobile-app-4.png"],
     "client": "Smithfield Foods Inc.",
     "type": "Enterprise Mobile App"
@@ -103,6 +72,7 @@
     "description": "QR Mobile application allows sales professionals to better understand their clients based on aggregating and understanding purchase history and provides prioritized client forecasts.",
     "role": "Mobile Application Developer",
     "technologies": ["Adobe Flash Builder", "Action Script"],
+    "cover": "media/cover/qr-mobile.png",
     "media": ["media/projects/qr-mobile-1.png", "media/projects/qr-mobile-2.png", "media/projects/qr-mobile-3.png", "media/projects/qr-mobile-4.png"],
     "client": "Orasure Inc.",
     "type": "Enterprise Mobile App"
@@ -115,6 +85,7 @@
     "description": "The application is a tour guide for travelers across the world and provides information about destinations - major attractions, events, history, language and safety tips, weather and maps. It provides the facility to store their favorites and access them offline and to create tours for their travel.",
     "role": "Mobile Application Developer",
     "technologies": ["HTML5", "CSS3", "JavaScript", "SQLite", "LocalStorage", "MetroUI"],
+    "cover": "media/cover/travelopedia.png",
     "media": ["media/projects/travelopedia-1.png", "media/projects/travelopedia-2.png", "media/projects/travelopedia-3.png", "media/projects/travelopedia-4.png", "media/projects/travelopedia-5.png"],
     "client": "",
     "type": "Mobile Application"
@@ -127,6 +98,7 @@
     "description": "The application is used by attendees in large conferences in order to build their Agenda; see all sessions at one glance, day-wise, venue-wise or type-wise; locate the venue in maps, search for different sessions, share their contacts using QR Technology, maintain their profile as well as QR Code for sharing; maintain their communities for sharing anything instantly; networking among like- minded people and access to twitter.",
     "role": "Mobile Application Developer",
     "technologies": ["HTML5", "CSS3", "JavaScript", "Cordova", "SQLite", "LocalStorage"],
+    "cover": "media/cover/iconference.png",
     "media": ["media/projects/iconference-1.png", "media/projects/iconference-2.png", "media/projects/iconference-3.png", "media/projects/iconference-4.png", "media/projects/iconference-5.png", "media/projects/iconference-6.png", "media/projects/iconference-7.png", "media/projects/iconference-8.png", "media/projects/iconference-9.png", "media/projects/iconference-10.png", "media/projects/iconference-11.png", "media/projects/iconference-12.png"],
     "client": "",
     "type": "Mobile Application"
@@ -139,21 +111,10 @@
     "description": "The cloudphire application is built specifically for SAPPHIRE visitors. It provides access to all tweets, vine videos and twitpic posted on Twitter with ‚#sapphire‛ as a hashtag. Application received great response at the event as mentioned in The Wall Street Journal: http://online.wsj.com/article/PR-CO-20130514-913982.html?mod=googlenews_ws",
     "role": "Mobile Application Developer",
     "technologies": ["HTML5", "CSS3", "JavaScript", "Cordova", "Responsive design", "Multiple browser support"],
+    "cover": "media/cover/cloudphire.png",
     "media": ["media/projects/cloudphire-1.png", "media/projects/cloudphire-2.png", "media/projects/cloudphire-3.png", "media/projects/cloudphire-4.png", "media/projects/cloudphire-5.png", "media/projects/cloudphire-6.png"],
     "client": "",
     "type": "Mobile Application"
-  },
-  {
-    "id": 19,
-    "title": "Intranet - Employee Suit",
-    "url": "http://intranet.tpcus.com/",
-    "sourceCode": "",
-    "description": "Intranet is used for employee information management internally in TPC, where employees can make leave requests, employee referals, add billable/non-billable expenses, submit their timesheets. Managers can create projects and assign tasks to team members along with other functionalities.",
-    "role": "Fullstack Developer",
-    "technologies": ["PHP", "SQL Server 2008", "SSRS", "HTML", "CSS","Javascript"],
-    "media": ["media/projects/intranet-1.png"],
-    "client": "",
-    "type": "Web Application"
   },
   {
     "id": 20,
@@ -163,6 +124,7 @@
     "description": "NAB application allows the user to access all their contacts at one place with easy to access and user-friendly UI. Calling/sending an email to a contact is just a tap away. The user can easily access Facebook/LinkedIn profiles of their contacts from the app. Offline storage enabled.",
     "role": "Mobile Application Developer",
     "technologies": ["HTML5", "CSS3", "Javascript", "SQLite", "Cordova"],
+    "cover": "media/cover/nab.png",
     "media": ["media/projects/nab-1.png", "media/projects/nab-2.png", "media/projects/nab-3.png", "media/projects/nab-4.png", "media/projects/nab-5.png", "media/projects/nab-6.png", "media/projects/nab-7.png", "media/projects/nab-8.png", "media/projects/nab-9.png", "media/projects/nab-10.png"],
     "client": "",
     "type": "Mobile Application"
@@ -175,93 +137,10 @@
     "description": "Aapka Dost application is your new friend in the city to guide you through all the events, movies or restaurants you are searching for. Music lovers can enjoy radio while driving or anytime they want. Application allows user to book ticket for the event they are willing to attend through high secure Paypal Express Checkout.",
     "role": "Mobile Application Developer",
     "technologies": ["Adobe Flash Builder", "ActionScript"],
+    "cover": "media/cover/aapka-dost.png",
     "media": ["media/projects/aapka-dost-1.png", "media/projects/aapka-dost-2.png", "media/projects/aapka-dost-3.png", "media/projects/aapka-dost-4.png", "media/projects/aapka-dost-5.png"],
     "client": "",
     "type": "Mobile Application"
-  },
-  {
-    "id": 22,
-    "title": "My Blog",
-    "url": "",
-    "sourceCode": "",
-    "description": "Simple RSS feed reader",
-    "role": "Mobile Application Developer",
-    "technologies": ["HTML", "CSS", "Javascript", "Cordova"],
-    "media": ["media/projects/my-blog-1.png", "media/projects/my-blog-2.png"],
-    "client": "",
-    "type": "Mobile Application"
-  },
-  {
-    "id": 23,
-    "title": "Santa Jokes",
-    "url": "",
-    "sourceCode": "",
-    "description": "Simple RSS feed reader",
-    "role": "Mobile Application Developer",
-    "technologies": ["Titanium Appcelerator"],
-    "media": ["media/projects/santa-jokes-1.png", "media/projects/santa-jokes-2.png"],
-    "client": "",
-    "type": "Mobile Application"
-  },
-  {
-    "id": 13,
-    "title": "IGH Pro",
-    "url": "",
-    "sourceCode": "",
-    "description": "Application allows user to search jobs and teep track of opportunities, events and interviews scheduled.",
-    "role": "Mobile Application Developer",
-    "technologies": ["Adobe Flash Builder", "ActionScript"],
-    "media": ["media/projects/ighpro-1.png", "media/projects/ighpro-2.png", "media/projects/ighpro-3.png", "media/projects/ighpro-4.png", "media/projects/ighpro-5.png", "media/projects/ighpro-6.png", "media/projects/ighpro-7.png"],
-    "client": "OneAppCloud",
-    "type": "Enterprise Mobile App"
-  },
-  {
-    "id": 14,
-    "title": "HR Performance",
-    "url": "",
-    "sourceCode": "",
-    "description": "Application used by Honeywell managers/executives to view their annual reports, track the progress of their tasks, request, view or submit feedback for employees.",
-    "role": "Mobile Application Developer",
-    "technologies": ["Sybase Unwired Platform", "Mobile business objects", "HTML"],
-    "media": ["media/projects/honeywell-1.png", "media/projects/honeywell-2.png", "media/projects/honeywell-3.png", "media/projects/honeywell-4.png"],
-    "client": "HoneyWell",
-    "type": "Enterprise Mobile App"
-  },
-  {
-    "id": 15,
-    "title": "US Bedside Enrollment",
-    "url": "",
-    "sourceCode": "",
-    "description": "Application used by Hollister’s clinical customers for obtaining patient’s information and his signatures upon enrollment into Secure Start Program and sends a confirmation email with required information to Secure Start Associate and nurse/clinician.",
-    "role": "Backend Developer (SOAP Web services)",
-    "technologies": ["J2EE", "JDBC", "Email API"],
-    "media": ["media/projects/bedside-enrollment-1.png", "media/projects/bedside-enrollment-2.png"],
-    "client": "Hollister Global",
-    "type": "Enterprise Mobile App"
-  },
-  {
-    "id": 8,
-    "title": "PetEdge",
-    "url": "",
-    "sourceCode": "",
-    "description": "Petedge application is used to see the list of orders placed, their current status and other details.",
-    "role": "Architect, Frontend Developer",
-    "technologies": ["HTML", "CSS", "Javascript", "LocalStorage"],
-    "media": ["media/projects/petedge-1.png", "media/projects/petedge-2.png", "media/projects/petedge-3.png", "media/projects/petedge-4.png", "media/projects/petedge-5.png"],
-    "client": "PetEdge",
-    "type": "Enterprise Mobile App"
-  },
-  {
-    "id": 9,
-    "title": "Sample Training Kit",
-    "url": "",
-    "sourceCode": "",
-    "description": "Application is used by OraSure Sales Rep to register doctors for Sample Kit Training and schedules the training depending upon their availability. Application auto detects timezone among EST, CST, MST, PST and loads the training schedules accordingly.",
-    "role": "Fullstack Developer",
-    "technologies": ["Cordova", "HTML5", "CSS3", "JavaScript"],
-    "media": ["media/projects/sample-training-kit-1.png", "media/projects/sample-training-kit-2.png", "media/projects/sample-training-kit-3.png"],
-    "client": "Orasure Inc.",
-    "type": "POC - Web Solution"
   },
   {
     "id": 1,
@@ -270,7 +149,8 @@
     "sourceCode": "https://github.com/yashikagarg13/budget-manager",
     "description": "Web solution for maintaining expense enteries and generating monthly/quarterly/yearly reports.",
     "role": "Fullstack Developer",
-    "technologies": ["ReactJs", "NodeJS", "Express", "MongoDB", "Webpack", "Eslint"],
+    "cover": "media/cover/budget-manager.png",
+    "technologies": ["ReactJs", "NodeJS", "Express", "MongoDB", "Webpack"],
     "media": [],
     "client": "",
     "type": "Web Application"

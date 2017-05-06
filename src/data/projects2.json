@@ -17,7 +17,7 @@
       "title": "Weather Forecast",
       "url": "Fullstack Developer",
       "sourceCode": "https://github.com/yashikagarg13/WeatherForecast",
-      "description": "Application built to understand and implement ReactJS fundamentals like Stateless functional components, react-router and prop types.",
+      "description": "The application built to understand and implement ReactJS fundamentals like Stateless functional components, react-router, webpack config and universal rendering.",
       "role": "Frontend Developer",
       "technologies": ["ReactJs", "React Router", "Webpack"],
       "media": ["media/projects/weather-forecast-1.png", "media/projects/weather-forecast-2.png", "media/projects/weather-forecast-3.png"],
@@ -29,7 +29,7 @@
       "title": "Typography Challenges",
       "url": "Frontend Developer",
       "sourceCode": "https://github.com/yashikagarg13/typography-basics",
-      "description": "Application describing different challenges of attaining good typography and their solution.",
+      "description": "The application describes different challenges faced while attaining good typography and explain their solutions.",
       "role": "Frontend Developer",
       "technologies": ["LESS", "Responsive Design", "Typographic Basics"],
       "media": ["media/projects/typography.png"],
@@ -41,13 +41,13 @@
       "title": "Github Battle",
       "url": "",
       "sourceCode": "https://github.com/yashikagarg13/react-practise",
-      "description": "Application built to understand basic concepts of React JS. In this application, two github users are compared based on number of followers and number of stars.",
+      "description": "The application built to understand basic concepts of React JS. In this application, two GitHub users are compared based on the number of followers and number of stars.",
       "role": "Frontend Developer",
       "technologies": ["ReactJS", "React Router", "Babel", "ES6", "Webpack"],
-      "media": ["media/projects/github-battle-1.png", "media/projects/github-battle-2.png"],
+      "media": ["media/projects/github-battle-1.png", "media/projects/github-battle-2.png", "media/projects/github-battle-3.png", "media/projects/github-battle-4.png"],
       "client": "",
       "type": "Web Application"
-    }
+    },
   ],
   "PowerToFly": [
     {
@@ -91,7 +91,7 @@
   ],
   "TPC Enterprise": [
     {
-      "id": 1,
+      "id": 8,
       "title": "PetEdge",
       "url": "",
       "sourceCode": "",
@@ -103,7 +103,7 @@
       "type": "Enterprise Mobile App"
     },
     {
-      "id": 2,
+      "id": 9,
       "title": "Sample Training Kit",
       "url": "",
       "sourceCode": "",
@@ -158,12 +158,13 @@
       "description": "Application allows user to search jobs and teep track of opportunities, events and interviews scheduled.",
       "role": "Mobile Application Developer",
       "technologies": ["Adobe Flash Builder", "ActionScript"],
-      "media": ["media/projects/"],
+      "cover": "media/cover/ighpro.png",
+      "media": ["media/projects/ighpro-1.png", "media/projects/ighpro-2.png", "media/projects/ighpro-3.png", "media/projects/ighpro-4.png", "media/projects/ighpro-5.png", "media/projects/ighpro-6.png", "media/projects/ighpro-7.png"],
       "client": "OneAppCloud",
       "type": "Enterprise Mobile App"
     },
     {
-      "id": 7,
+      "id": 14,
       "title": "HR Performance",
       "url": "",
       "sourceCode": "",
@@ -175,7 +176,7 @@
       "type": "Enterprise Mobile App"
     },
     {
-      "id": 8,
+      "id": 15,
       "title": "US Bedside Enrollment",
       "url": "",
       "sourceCode": "",
@@ -185,7 +186,7 @@
       "media": ["media/projects/bedside-enrollment-1.png", "media/projects/bedside-enrollment-2.png"],
       "client": "Hollister Global",
       "type": "Enterprise Mobile App"
-    }
+    },
   ],
   "TPC Internal": [
     {
@@ -227,11 +228,12 @@
     {
       "id": 4,
       "title": "Intranet - Employee Suit",
-      "url": "http://www.cloudphire.com/",
+      "url": "http://intranet.tpcus.com/",
       "sourceCode": "",
       "description": "Intranet is used for employee information management internally in TPC, where employees can make leave requests, employee referals, add billable/non-billable expenses, submit their timesheets. Managers can create projects and assign tasks to team members along with other functionalities.",
       "role": "Fullstack Developer",
       "technologies": ["PHP", "SQL Server 2008", "SSRS", "HTML", "CSS","Javascript"],
+      "cover": "media/cover/intranet.png",
       "media": ["media/projects/intranet-1.png"],
       "client": "",
       "type": "Web Application"
@@ -262,6 +264,18 @@
     },
     {
       "id": 7,
+      "title": "Santa Jokes",
+      "url": "",
+      "sourceCode": "",
+      "description": "Simple RSS feed reader",
+      "role": "Mobile Application Developer",
+      "technologies": ["Titanium Appcelerator"],
+      "media": ["media/projects/santa-jokes-1.png", "media/projects/santa-jokes-2.png"],
+      "client": "",
+      "type": "Mobile Application"
+    },
+    {
+      "id": 8,
       "title": "Aapka Dost",
       "url": "",
       "sourceCode": "",
@@ -272,17 +286,5 @@
       "client": "",
       "type": "Mobile Application"
     },
-    {
-      "id": 8,
-      "title": "Santa Jokes",
-      "url": "",
-      "sourceCode": "",
-      "description": "Simple RSS feed reader",
-      "role": "Mobile Application Developer",
-      "technologies": ["Titanium Appcelerator"],
-      "media": ["media/projects/santa-jokes-1.png", "media/projects/santa-jokes-2.png"],
-      "client": "",
-      "type": "Mobile Application"
-    }
   ]
 }
