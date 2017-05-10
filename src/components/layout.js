@@ -1,6 +1,5 @@
 import React, {PropTypes} from "react";
 
-import Blog from "./blog";
 import CoverImage from "./cover-image";
 import Education from "./education";
 import Experience from "./experience";
@@ -9,7 +8,6 @@ import Header from "./header";
 import About from "./about";
 import Interests from "./interests";
 import Projects from "./projects";
-import Videos from "./videos";
 
 export default class App extends React.Component {
   componentDidUpdate() {
@@ -27,8 +25,6 @@ export default class App extends React.Component {
           <CoverImage />
           <About />
           <Projects />
-          <Blog />
-          <Videos />
           <Experience />
           <Education />
           <Interests />

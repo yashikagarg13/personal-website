@@ -1,6 +1,8 @@
 import React from "react";
 import {Link} from "react-router";
 
+import Constants from "../helpers/constants";
+
 const Header = () => {
   return (
     <div className="header">
@@ -22,8 +24,10 @@ const Header = () => {
               <ul className="nav navbar-nav navbar-right">
                 <li><Link to="/#about">About</Link></li>
                 <li><Link to="/#projects">Projects</Link></li>
-                <li><Link to="/#blog">Blog</Link></li>
-                <li><Link to="/#videos">Videos</Link></li>
+                <li><a href={Constants.blogLink} target="_blank">Blog
+                  <i className="fa fa-external-link xs text margin-left-xs" aria-hidden="true"></i></a></li>
+                <li><a href={Constants.youtubeLink} target="_blank">Videos
+                  <i className="fa fa-external-link xs text margin-left-xs" aria-hidden="true"></i></a></li>
                 <li>
                   <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button"
                     aria-haspopup="true" aria-expanded="false">Background <span className="caret"></span></a>

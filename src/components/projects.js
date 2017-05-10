@@ -1,8 +1,6 @@
 import R from "ramda";
 import React from "react";
 
-import Carousel from "./common/carousel";
-import FormatHelpers from "../helpers/format";
 import ProjectsData from "../data/projects";
 
 export default class Projects extends React.Component {
@@ -21,8 +19,6 @@ export default class Projects extends React.Component {
 
     this.onClickSeeLess = this.onClickSeeLess.bind(this);
     this.onClickSeeAll = this.onClickSeeAll.bind(this);
-    this.onMouseOver = this.onMouseOver.bind(this);
-    this.onMouseOut = this.onMouseOut.bind(this);
   }
 
   onClickSeeAll () {
@@ -37,21 +33,7 @@ export default class Projects extends React.Component {
     });
   }
 
-  onMouseOver (projectId) {
-    let {showDetails} = this.state;
-    showDetails[projectId] = true;
-    this.setState({showDetails});
-  }
-
-  onMouseOut (projectId) {
-    let {showDetails} = this.state;
-    showDetails[projectId] = false;
-    this.setState({showDetails});
-  }
-
   render () {
-    const {showDetails} = this.state;
-
     return (
       <div id="projects" className="projects">
         <div className="container text-center">
@@ -66,7 +48,7 @@ export default class Projects extends React.Component {
                     </div>
                   : null
                 }
-                <div className={`padding-sm clearfix overlap`}>
+                <div className="padding-sm clearfix overlap">
                   <div className="clearfix">
                     <div className="pull-left">
                       {!R.isEmpty(project.url) && R.type(project.url) == "String"
